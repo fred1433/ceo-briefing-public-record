@@ -1,0 +1,21 @@
+name: sources
+
+# Re-downloads every cited document and checks that every quotation is still in it.
+# Needs the network, so it is kept out of the required build: on demand, and weekly.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+jobs:
+  quotations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 tools/verify_sources.py data/snapshots/2026-09-15.json
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}

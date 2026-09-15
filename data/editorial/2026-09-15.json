@@ -1,0 +1,316 @@
+{
+ "headline": "Five things moved since the August 31 briefing. Everything else on the register is unchanged and is listed at the foot without being repeated.",
+ "scope": "Built from the public record alone: filings accepted by EDGAR, press releases, and the company's own pages, read on September 15, 2026. No internal source of any kind.",
+ "items": [
+  {
+   "key": "obl-advance-notice-2026",
+   "state": "status",
+   "headline": "The window to nominate a director for the 2026 annual meeting shut on Sunday, and the meeting date is still not public",
+   "answers": [
+    "WHAT CHANGED",
+    "WHAT REQUIRES MY DECISION"
+   ],
+   "chain": {
+    "what_happened": {
+     "text": "The bylaw window for stockholder proposals and director nominations at the 2026 annual meeting closed at the close of business on Sunday, September 13, 2026. It had opened on August 14.",
+     "sources": [
+      "advance-notice-window"
+     ]
+    },
+    "what_changed": {
+     "text": "On August 31 this was an open window with thirteen days to run. It is now shut. Nothing has been filed since to announce the date of the meeting.",
+     "sources": [
+      "advance-notice-window",
+      "advance-notice-reopen"
+     ]
+    },
+    "why_it_matters": {
+     "text": "The same paragraph reopens the window for ten days after a public announcement if the 2026 meeting falls more than 30 days before, or more than 60 days after, December 12, 2026. Setting the meeting date therefore decides whether the window stays shut or opens again. Reading it the other way round: as long as the date is unset, the answer to whether nominations are closed is unsettled. Whether a submission received on Monday, September 14 would be treated as timely against a Sunday deadline is a question for counsel, not for this briefing.",
+     "sources": [
+      "advance-notice-reopen",
+      "annual-meeting-2025"
+     ]
+    },
+    "who_owns_it": {
+     "text": "The bylaws name the Secretary of the Company as the recipient. Scott Bartley has held that office, with the Interim Chief Financial Officer and Treasurer roles, since October 27, 2025.",
+     "sources": [
+      "advance-notice-window",
+      "interim-cfo"
+     ]
+    },
+    "what_is_late": {
+     "text": "Nothing is late. A window shut on its own terms. The deadline for proposals to be printed in the proxy itself passed on June 30.",
+     "sources": [
+      "rule-14a8-deadline"
+     ]
+    },
+    "decision_required": {
+     "text": "Set the date of the 2026 annual meeting. That one choice settles this window, the proxy calendar, and the rights plan in item five.",
+     "sources": []
+    },
+    "next_step": {
+     "text": "Next board agenda. Ask the Secretary to confirm on the record what was received between August 14 and September 13.",
+     "sources": []
+    }
+   }
+  },
+  {
+   "key": "obl-10k-fy2026",
+   "state": "standing",
+   "headline": "The annual report for the year ended June 30 is due in thirteen days, on Monday September 28",
+   "answers": [
+    "WHAT DEADLINES ARE APPROACHING"
+   ],
+   "chain": {
+    "what_happened": {
+     "text": "The fiscal year ended on June 30, 2026. The company reports as a non-accelerated filer and a smaller reporting company, which puts the annual report ninety days after the year end: Monday, September 28, 2026.",
+     "sources": [
+      "filer-status"
+     ]
+    },
+    "what_changed": {
+     "text": "Twenty eight days remained at the last briefing. Thirteen remain now. Nothing has been filed in the interval that touches the annual report.",
+     "sources": [
+      "filer-status",
+      "auditor-fy2026"
+     ]
+    },
+    "why_it_matters": {
+     "text": "This is the first annual report drafted after the board approved a sale process for 1st Detect in June and after the equity program was replaced in August. Both belong in it. Last year the results release came out one day before the report itself, on September 25 and 26, so the release date is effectively already inside the window.",
+     "sources": [
+      "sale-process",
+      "atm-50m"
+     ]
+    },
+    "who_owns_it": {
+     "text": "The Interim Chief Financial Officer, with RBSM LLP, ratified by stockholders as auditor for this fiscal year.",
+     "sources": [
+      "interim-cfo",
+      "auditor-fy2026"
+     ]
+    },
+    "what_is_late": {
+     "text": "Nothing is late. Last year's report was filed on the eighty eighth day.",
+     "sources": [
+      "filer-status"
+     ]
+    },
+    "decision_required": {
+     "text": "Fix the results release date, and name who reviews the subsidiary sale process and equity program language before signature.",
+     "sources": []
+    },
+    "next_step": {
+     "text": "Lock the calendar this week. Item three below should be settled before the report is signed, not after.",
+     "sources": []
+    }
+   }
+  },
+  {
+   "key": "form4a-winn-2026-09-08",
+   "state": "appeared",
+   "headline": "Seven amended insider reports were filed in thirteen minutes on September 8, one of them correcting a report from March 2024",
+   "answers": [
+    "WHAT CHANGED IN THE LAST 24 HOURS",
+    "WHAT NEW PROBLEMS APPEARED"
+   ],
+   "chain": {
+    "what_happened": {
+     "text": "EDGAR indexes seven Forms 4/A under the filing date September 8, 2026, accepted between 21:02 and 21:15 Eastern. They amend reports for five insiders. One of them corrects a report originally filed on March 18, 2024.",
+     "sources": [
+      "form4a-count",
+      "form4a-mcfarland-original"
+     ]
+    },
+    "what_changed": {
+     "text": "None of this existed at the August 31 briefing. One of the amended reports is itself only a week old: the Form 4 filed on September 1, 2026 carries a date of earliest transaction of December 13, 2024 while the transaction it reports is an award of 2,150 shares dated September 1, 2026. The amendment filed seven days later restates that date as September 1, 2026.",
+     "sources": [
+      "form4-winn-period",
+      "form4-winn-row",
+      "form4a-winn-period"
+     ]
+    },
+    "why_it_matters": {
+     "text": "A batch that reaches across five insiders and back to a report from March 2024 reads as the output of a review of past filings rather than a single clerical fix. This briefing can see the output on EDGAR and not the review itself, so that reading is offered as a reading. What is not a reading is the calendar: the proxy statement has to name every insider whose Section 16(a) report was late during the fiscal year, and last year's named three people by name and date.",
+     "sources": [
+      "section16-fy2025",
+      "form4a-mcfarland-original"
+     ]
+    },
+    "who_owns_it": {
+     "text": "The Corporate Secretary, with the company's securities counsel. The five insiders are four directors and the Chief Operating Officer.",
+     "sources": [
+      "interim-cfo",
+      "form4a-count"
+     ]
+    },
+    "what_is_late": {
+     "text": "The amendments themselves are not a finding of lateness. But the annual report is due on September 28 and the proxy follows it, and the Section 16(a) paragraph in that proxy is drafted from exactly this material.",
+     "sources": [
+      "section16-fy2025"
+     ]
+    },
+    "decision_required": {
+     "text": "Ask counsel, before the annual report is signed, for the list of fiscal 2026 Section 16 reports filed after their due date and for what triggered the September 8 batch.",
+     "sources": []
+    },
+    "next_step": {
+     "text": "One request to counsel this week. It costs an email and it decides a paragraph that is read closely by proxy advisers.",
+     "sources": []
+    }
+   }
+  },
+  {
+   "key": "reconcile:board-six-to-seven:page-team",
+   "state": "drift",
+   "carried_over": true,
+   "new_since_previous": "the company's own board page was read on September 15 and still shows six directors, sixty one days after the seventh was appointed",
+   "headline": "Your public record disagrees with itself about the size of your board, in three places",
+   "answers": [
+    "WHAT SHOULD I KNOW THAT NOBODY HAS DIRECTLY TOLD ME"
+   ],
+   "chain": {
+    "what_happened": {
+     "text": "Item 5.02 of the Form 8-K of July 22, 2026 says the Board went from six directors to seven and appointed Matthew Kreps. The press release furnished as Exhibit 99.1 to that same filing says it went from five to six. The Executive Team page on the company site presents the Chairman and five directors, six names, and no seventh.",
+     "sources": [
+      "board-six-to-seven",
+      "board-five-to-six",
+      "team-roster"
+     ]
+    },
+    "what_changed": {
+     "text": "The contradiction inside the July 22 filing was in the August 31 briefing. What is new is the reconciliation: the board page was read on September 15, sixty one days after the July 16 board action, and has not caught up. The same page lists a Chief Operating Officer and a Chief Product Officer and no Chief Financial Officer, while an Interim Chief Financial Officer, Treasurer and Secretary has been in office since October 27, 2025.",
+     "sources": [
+      "team-roster",
+      "team-officers",
+      "interim-cfo"
+     ]
+    },
+    "why_it_matters": {
+     "text": "Six directors stood for election on December 12, 2025, so six plus one is seven and the Item 5.02 figure is the one that agrees with the record. The press release is the document that travels: data vendors and proxy advisers read it first, and the website is what a counterparty checks second. The 2026 proxy statement will have to state one number, in writing, with seven names under it.",
+     "sources": [
+      "directors-nominated-2025",
+      "board-six-to-seven"
+     ]
+    },
+    "who_owns_it": {
+     "text": "The Corporate Secretary. The Board that took the action in July now includes a director whose career is investor relations, and he is the one name missing from the page.",
+     "sources": [
+      "interim-cfo",
+      "board-six-to-seven"
+     ]
+    },
+    "what_is_late": {
+     "text": "No filing is late. The Form 8-K went in four business days after the board acted. It is the company's own pages that are behind, by sixty one days on the board and by three hundred and twenty three on the finance seat.",
+     "sources": [
+      "team-roster",
+      "interim-cfo"
+     ]
+    },
+    "decision_required": {
+     "text": "Whether the July 22 release is corrected, and who owns the board page and the newsroom now that there is a director whose profession is exactly this.",
+     "sources": []
+    },
+    "next_step": {
+     "text": "One pass over the two pages before the proxy is drafted. Then one rule: no release goes out without being read against the filing it is attached to.",
+     "sources": []
+    }
+   }
+  },
+  {
+   "key": "obl-rights-2026",
+   "state": "standing",
+   "carried_over": true,
+   "new_since_previous": "item one put the annual meeting date in play, and every extension of this agreement so far has been signed on the day of that meeting",
+   "headline": "The rights plan reaches its expiration on December 20, and the decision has travelled with the annual meeting every year since 2023",
+   "answers": [
+    "WHAT REQUIRES MY DECISION"
+   ],
+   "chain": {
+    "what_happened": {
+     "text": "Amendment No. 3 to the Rights Agreement, entered into on December 12, 2025, extends the Final Expiration Date to 5:00 P.M. New York City time on December 20, 2026. Ninety six days from today.",
+     "sources": [
+      "rights-expiration",
+      "rights-amendment-3"
+     ]
+    },
+    "what_changed": {
+     "text": "Nothing about the agreement. It is repeated here on purpose, because its context changed: the annual meeting date became an open decision when the nomination window shut on Sunday.",
+     "sources": [
+      "rights-expiration",
+      "advance-notice-window"
+     ]
+    },
+    "why_it_matters": {
+     "text": "The agreement has been amended on December 18, 2023, December 12, 2024 and December 12, 2025, and that last date is the day the 2025 annual meeting was held. Three data points are a habit, not a rule, but they put this decision and the meeting date on the same page of the same agenda.",
+     "sources": [
+      "rights-history",
+      "annual-meeting-2025"
+     ]
+    },
+    "who_owns_it": {
+     "text": "The Board of Directors, with Equiniti Trust Company as rights agent.",
+     "sources": [
+      "rights-amendment-3"
+     ]
+    },
+    "what_is_late": {
+     "text": "Nothing. Ninety six days remain, and the last three extensions were each signed within nine days of the expiration.",
+     "sources": [
+      "rights-history",
+      "rights-expiration"
+     ]
+    },
+    "decision_required": {
+     "text": "Extend a fourth time, redeem, or let it reach the Final Expiration Date.",
+     "sources": []
+    },
+    "next_step": {
+     "text": "Same board agenda as item one. If the meeting moves out of December, this date does not move with it on its own.",
+     "sources": []
+    }
+   }
+  }
+ ],
+ "alerts": [
+  {
+   "evidence": "8k-2026-06-16",
+   "local": "Tuesday June 16, 08:32 Eastern",
+   "rule": "a current report carrying a board decision about a subsidiary",
+   "text": "the board approved management to engage in a sale process for 1st Detect, announced the same morning."
+  },
+  {
+   "evidence": "8k-2026-08-19",
+   "local": "Wednesday August 19, 17:26 Eastern",
+   "rule": "a change to an active equity program, accepted after the close",
+   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated it, twenty six minutes apart."
+  },
+  {
+   "evidence": "edgar-section16-list",
+   "local": "Tuesday September 8, 21:02 to 21:15 Eastern",
+   "rule": "three or more amended insider reports accepted inside one hour",
+   "text": "seven Forms 4/A for five insiders, one of them correcting a report from March 2024."
+  }
+ ],
+ "carried": [
+  {
+   "evidence": "8k-2026-08-19",
+   "text": "The $50 million prospectus supplement of August 19 stands, after approximately $7.9 million of gross proceeds under the June program."
+  },
+  {
+   "evidence": "8k-2026-06-16",
+   "text": "The sale process for 1st Detect, approved by the board on June 16, has had no disclosed update."
+  },
+  {
+   "evidence": "pr-clps2-2026-06-30",
+   "text": "The NASA Commercial Lunar Payload Services 2 Phase 1 proposal, submitted June 30, has no disclosed decision date."
+  },
+  {
+   "evidence": "10qa-q3-fy2026",
+   "text": "The quarterly report for the period ended March 31 was amended on August 6 to correct the Series D conversion share count."
+  },
+  {
+   "evidence": "8k-2026-07-22",
+   "text": "Matthew Kreps joined the board on July 16 and had not been assigned to a committee as of July 22."
+  }
+ ]
+}
