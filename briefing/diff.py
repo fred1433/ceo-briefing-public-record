@@ -40,16 +40,25 @@ def diff(previous: Snapshot | None, current: Snapshot) -> list[Change]:
     prev_ev = set(previous.evidence) if previous else set()
     prev_obs = set(previous.observations) if previous else set()
 
-    for eid, ev in current.evidence.items():
-        if eid not in prev_ev:
-            changes.append(
-                Change(
-                    kind="appeared",
-                    key=eid,
-                    detail=f"{ev.title} ({ev.published})",
-                    evidence=(eid,),
-                )
+    # One corporate event, one change. A press release furnished as an exhibit to
+    # the filing it accompanies is the same event as the filing: reporting both
+    # would be the "twice-told news" the reader complains about.
+    seen_events: set[str] = {current.evidence[e].event_id for e in prev_ev if e in current.evidence}
+    for eid, ev in sorted(current.evidence.items()):
+        if eid in prev_ev or ev.event_id in seen_events:
+            continue
+        seen_events.add(ev.event_id)
+        documents = tuple(
+            sorted(k for k, v in current.evidence.items() if v.event_id == ev.event_id)
+        )
+        changes.append(
+            Change(
+                kind="appeared",
+                key=ev.event_id,
+                detail=f"{ev.title} ({ev.published})",
+                evidence=documents,
             )
+        )
     for oid, obs in current.observations.items():
         if oid not in prev_obs:
             changes.append(
@@ -73,13 +82,16 @@ def diff(previous: Snapshot | None, current: Snapshot) -> list[Change]:
                 )
             )
 
-    changes.extend(_drift(current))
+    changes.extend(_drift(current, previous))
     changes.sort(key=lambda c: (c.kind, c.key))
     return changes
 
 
-def _drift(current: Snapshot) -> list[Change]:
+def _drift(current: Snapshot, previous: Snapshot | None) -> list[Change]:
     """A page that should reflect an event and does not, past the tolerance.
+
+    It is a change on the run that crosses the tolerance, and standing state on
+    every run after that: a reconciliation that stays true is not news twice.
 
     A reconciliation is declared in the snapshot as an observation id pair:
     `reconcile:<event-observation>:<page-evidence>`. The rule owns the date maths,
@@ -98,7 +110,15 @@ def _drift(current: Snapshot) -> list[Change]:
         event_ev = current.evidence[event_obs.evidence]
         happened = event_obs.occurred or event_ev.published
         age = (today - dt.date.fromisoformat(happened)).days
-        if age >= RECONCILIATION_TOLERANCE_DAYS:
+        already = False
+        if previous is not None:
+            before = (
+                dt.date.fromisoformat(previous.as_of) - dt.date.fromisoformat(happened)
+            ).days
+            already = (
+                before >= RECONCILIATION_TOLERANCE_DAYS and page_ev_id in previous.evidence
+            )
+        if age >= RECONCILIATION_TOLERANCE_DAYS and not already:
             out.append(
                 Change(
                     kind="drift",

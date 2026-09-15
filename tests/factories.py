@@ -1,4 +1,8 @@
-"""Small hand-made snapshots, so the pipeline tests do not depend on the real data."""
+"""Invented records for the pipeline tests.
+
+Nothing here is an Astrotech event. These are fictional documents with fictional
+identifiers, used to exercise the mechanism on its own.
+"""
 
 from briefing.model import Evidence, Observation, Obligation, Snapshot
 
@@ -39,3 +43,27 @@ def basic(as_of="2026-09-15", due="2026-09-28"):
         evidence="ev-1",
     )
     return snapshot(as_of, [ev], [obs], [ob])
+
+
+# The smallest editorial an item can be rendered inside, for tests that care about
+# one item and not about the rest of a briefing.
+MINIMAL = {
+    "banner": "test",
+    "replay": "test",
+    "engine": "test",
+    "headline": "h",
+    "scope": "s",
+    "tracked": {
+        "subject": "s",
+        "lines": [],
+        "unknown_label": "NOT STATED IN PUBLIC SOURCES",
+        "unknown": "nothing",
+    },
+    "alert_rule": {
+        "rule": "r",
+        "caveat": "c",
+        "crosses": {"when": "", "text": "t", "sources": []},
+        "does_not_cross": {"when": "", "text": "t", "sources": []},
+        "production": "p",
+    },
+}

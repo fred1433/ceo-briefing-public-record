@@ -12,7 +12,8 @@
    "published": "2025-10-28",
    "accepted": "2025-10-28T20:33:00Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "8k-2025-10-31",
@@ -21,7 +22,8 @@
    "published": "2025-10-31",
    "accepted": "2025-10-31T20:15:00Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925032589/astc20251031_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "8k-2025-12-17",
@@ -30,7 +32,8 @@
    "published": "2025-12-17",
    "accepted": "2025-12-17T21:16:00Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925038149/astc20251216_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "10q-q3-fy2026",
@@ -39,7 +42,8 @@
    "published": "2026-05-13",
    "accepted": "2026-05-13T12:30:48Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926016543/astc20260331_10q.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "8k-2026-06-16",
@@ -48,7 +52,8 @@
    "published": "2026-06-16",
    "accepted": "2026-06-16T12:32:55Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926020737/astc20260616_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "pr-2026-06-16",
@@ -57,6 +62,7 @@
    "published": "2026-06-16",
    "accepted": "2026-06-16T12:32:55Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926020737/ex_977252.htm",
+   "event": "8k-2026-06-16",
    "retrieved": "2026-09-15"
   },
   {
@@ -66,7 +72,8 @@
    "published": "2026-06-30",
    "url": "https://www.astrotechcorp.com/about/news/astrotech-corporation-submits-proposal-to-nasas-commercial-lunar-payload-services-2-program",
    "retrieved": "2026-09-15",
-   "accepted": null
+   "accepted": null,
+   "event": null
   },
   {
    "id": "8k-2026-07-22",
@@ -75,7 +82,8 @@
    "published": "2026-07-22",
    "accepted": "2026-07-22T12:41:03Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926024046/astc20260721_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "pr-2026-07-22",
@@ -84,6 +92,7 @@
    "published": "2026-07-22",
    "accepted": "2026-07-22T12:41:03Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926024046/ex_991454.htm",
+   "event": "8k-2026-07-22",
    "retrieved": "2026-09-15"
   },
   {
@@ -93,7 +102,8 @@
    "published": "2026-08-06",
    "accepted": "2026-08-06T21:26:09Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926026366/astc20260331_10qa.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "8k-2026-08-19",
@@ -102,7 +112,8 @@
    "published": "2026-08-19",
    "accepted": "2026-08-19T21:26:25Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926028569/astc20260818_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "424b5-2026-08-19",
@@ -111,6 +122,7 @@
    "published": "2026-08-19",
    "accepted": "2026-08-19T21:25:36Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926028567/astc20260819_424b5.htm",
+   "event": "8k-2026-08-19",
    "retrieved": "2026-09-15"
   },
   {
@@ -120,7 +132,8 @@
    "published": "2023-12-20",
    "accepted": "2023-12-20T21:20:00Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774923034936/astc20231219_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "8k-2024-12-16",
@@ -129,7 +142,8 @@
    "published": "2024-12-16",
    "accepted": "2024-12-16T21:20:00Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774924037609/astc20241213_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "8k-2025-09-25",
@@ -138,7 +152,8 @@
    "published": "2025-09-25",
    "accepted": "2025-09-25T20:10:00Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029876/astc20250911_8k.htm",
-   "retrieved": "2026-09-15"
+   "retrieved": "2026-09-15",
+   "event": null
   },
   {
    "id": "10k-fy2025",
@@ -147,16 +162,8 @@
    "published": "2025-09-26",
    "accepted": "2025-09-26T20:31:00Z",
    "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029909/astc20250630_10k.htm",
-   "retrieved": "2026-09-15"
-  },
-  {
-   "id": "page-newsroom",
-   "kind": "company_page",
-   "title": "Company newsroom, 2026 listing, on astrotechcorp.com",
-   "published": "2026-06-30",
-   "url": "https://www.astrotechcorp.com/about/news?year=2026",
    "retrieved": "2026-09-15",
-   "accepted": null
+   "event": null
   }
  ],
  "observations": [
@@ -313,6 +320,24 @@
    "fact": "A prospectus supplement filed August 19, 2026 covers up to $50 million and supersedes the June supplement."
   },
   {
+   "id": "atm-june-supplement",
+   "evidence": "8k-2026-08-19",
+   "quote": "as supplemented by a prospectus supplement dated June 3, 2026 [...] in connection with the offer and sale of up to approximately $24.5 million of shares of Common Stock pursuant to the Offering Agreement",
+   "fact": "The June 3, 2026 prospectus supplement covered up to approximately $24.5 million."
+  },
+  {
+   "id": "atm-no-further",
+   "evidence": "8k-2026-08-19",
+   "quote": "No further sales of shares of Common Stock will be made under the Prior Prospectus Supplement.",
+   "fact": "No further sales may be made under the June supplement."
+  },
+  {
+   "id": "signature-pickens",
+   "evidence": "8k-2026-08-19",
+   "quote": "Chief Executive Officer, Chief Technology Officer and Chairman of the Board (Principal Executive Officer and Principal Financial Officer)",
+   "fact": "The filing is signed by Thomas B. Pickens III as Principal Executive Officer and Principal Financial Officer."
+  },
+  {
    "id": "atm-sold",
    "evidence": "8k-2026-08-19",
    "quote": "As of August 19, 2026, the Company had sold 258,856 shares of Common Stock for gross proceeds of approximately $7.9 million",
@@ -335,18 +360,6 @@
    "evidence": "10k-fy2025",
    "quote": "ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended June 30, 2025",
    "fact": "The annual report for the year ended June 30, 2025 was filed on September 26, 2025, the eighty eighth day after the year end and one day after the results release."
-  },
-  {
-   "id": "newsroom-latest",
-   "evidence": "page-newsroom",
-   "quote": "06.30.2026 Astrotech Corporation Submits Proposal to NASA's Commercial Lunar Payload Services 2 Program",
-   "fact": "The newest item in the company's own 2026 newsroom listing is dated June 30, 2026."
-  },
-  {
-   "id": "newsroom-2026-list",
-   "evidence": "page-newsroom",
-   "quote": "06.30.2026 [...] 06.08.2026 [...] 05.27.2026 [...] 05.21.2026 [...] 05.11.2026 [...] 01.21.2026",
-   "fact": "The 2026 listing holds six items and none of them is dated in July or August."
   }
  ],
  "obligations": [

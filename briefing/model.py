@@ -31,6 +31,13 @@ class Evidence:
     url: str
     retrieved: str  # ISO date we read it
     accepted: str | None = None  # EDGAR acceptance timestamp, UTC, when known
+    event: str | None = None  # the event this document reports; an exhibit shares
+    # its filing's event, so a press release and the filing it is attached to are
+    # one corporate event and not two.
+
+    @property
+    def event_id(self) -> str:
+        return self.event or self.id
 
     def __post_init__(self) -> None:
         if not self.url.startswith("https://"):

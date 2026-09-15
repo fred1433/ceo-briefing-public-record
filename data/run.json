@@ -1,0 +1,83 @@
+{
+ "recorded": "2026-09-15T14:38:12+00:00",
+ "commit": "202b5e9",
+ "python": "3.14.7",
+ "model_calls": 0,
+ "editorial_layer": "pre-computed output, written by hand at build time, committed in data/editorial/",
+ "briefings": [
+  {
+   "date": "2026-08-31",
+   "previous": null,
+   "command": "python3 -m briefing.cli build --date 2026-08-31",
+   "inputs": {
+    "snapshot": {
+     "path": "data/snapshots/2026-08-31.json",
+     "sha256_16": "a105f3c3c4a4e33c"
+    },
+    "editorial": {
+     "path": "data/editorial/2026-08-31.json",
+     "sha256_16": "ca0536d83f7cbfce"
+    }
+   },
+   "outputs": {
+    "json": {
+     "path": "data/briefings/2026-08-31.json",
+     "sha256_16": "f46291a8fb208eef"
+    },
+    "markdown": {
+     "path": "data/briefings/2026-08-31.md",
+     "sha256_16": "62b16444f4178f12"
+    }
+   },
+   "counts": {
+    "evidence": 16,
+    "observations": 32,
+    "obligations": 3,
+    "changes": 48,
+    "items": 4,
+    "passages": 39
+   }
+  },
+  {
+   "date": "2026-09-15",
+   "previous": "2026-08-31",
+   "command": "python3 -m briefing.cli build --date 2026-09-15 --previous 2026-08-31",
+   "inputs": {
+    "snapshot": {
+     "path": "data/snapshots/2026-09-15.json",
+     "sha256_16": "bd0ba0ee125eeffd"
+    },
+    "editorial": {
+     "path": "data/editorial/2026-09-15.json",
+     "sha256_16": "d29e8dbe877c33c6"
+    }
+   },
+   "outputs": {
+    "json": {
+     "path": "data/briefings/2026-09-15.json",
+     "sha256_16": "e228d1c92c8b1425"
+    },
+    "markdown": {
+     "path": "data/briefings/2026-09-15.md",
+     "sha256_16": "f920ce6f50834c20"
+    }
+   },
+   "counts": {
+    "evidence": 23,
+    "observations": 43,
+    "obligations": 3,
+    "changes": 20,
+    "items": 5,
+    "passages": 68
+   }
+  }
+ ],
+ "source_verification": "68 passages checked in 23 documents, 0 not found (2026-09-15 snapshot, run 2026-09-15)",
+ "how_to_reproduce": [
+  "python3 -m briefing.cli build  --date 2026-08-31",
+  "python3 -m briefing.cli build  --date 2026-09-15 --previous 2026-08-31",
+  "python3 -m briefing.cli verify --date 2026-09-15 --previous 2026-08-31",
+  "python3 -m pytest tests -q",
+  "SEC_USER_AGENT=\"Your Company you@example.com\" python3 tools/verify_sources.py data/snapshots/2026-09-15.json"
+ ]
+}

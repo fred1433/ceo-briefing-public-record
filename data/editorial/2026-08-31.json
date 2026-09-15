@@ -1,13 +1,59 @@
 {
- "headline": "First run. Every open item on the public register is stated once here, so that the next briefing can report only what moved.",
- "scope": "Built from the public record alone: filings accepted by EDGAR, press releases, and the company's own pages, as they stood on August 31, 2026. No internal source of any kind. This earlier briefing was assembled on September 15 from documents that were already public on August 31, so that the later one can be read against something.",
+ "banner": "Independent work sample by The AI Pipe. Not an Astrotech publication, and not endorsed by Astrotech Corporation.",
+ "replay": "Historical replay: both briefings were reconstructed on September 15, 2026 from what was public on each date.",
+ "engine": "This is the briefing engine, demonstrated on Astrotech's public record. The internal version, on Outlook, SharePoint and OneDrive, remains to be built.",
+ "headline": "First run. One subject followed across filings, then every open item on the public register, stated once, so that the next briefing can report only what moved.",
+ "scope": "Built from the public record alone: filings accepted by EDGAR and press releases, as they stood on August 31, 2026. No internal source of any kind. Company pages are excluded here: a live page carries no version history, so it cannot stand as evidence of an earlier state.",
+ "tracked": {
+  "subject": "The at-the-market equity program",
+  "lines": [
+   {
+    "label": "AS IT STOOD BEFORE",
+    "register": "fact",
+    "text": "An offering agreement signed on June 2, 2026 with H.C. Wainwright & Co., LLC as sales agent, and a prospectus supplement dated June 3, 2026 covering up to approximately $24.5 million of common stock.",
+    "sources": [
+     "atm-agent",
+     "atm-june-supplement"
+    ]
+   },
+   {
+    "label": "WHAT CHANGED",
+    "register": "fact",
+    "text": "On August 19, 2026, accepted at 17:26 Eastern, a prospectus supplement covering up to $50 million replaces and supersedes the June one. A second supplement filed the same minute terminates the June offering, and no further sales may be made under it.",
+    "sources": [
+     "atm-50m",
+     "atm-terminated",
+     "atm-no-further"
+    ]
+   },
+   {
+    "label": "WHAT WAS ALREADY DONE",
+    "register": "fact",
+    "text": "258,856 shares had been sold under the June supplement for gross proceeds of approximately $7.9 million as of August 19, 2026.",
+    "sources": [
+     "atm-sold"
+    ]
+   },
+   {
+    "label": "WHY IT IS RAISED",
+    "register": "interpretation",
+    "text": "A replacement, not an addition: the two amounts are not added, and the June supplement no longer describes anything. An amount registered is capacity to sell, not capital raised. Any internal document, model or board page that still points at the June program is describing something that has been shut.",
+    "sources": [
+     "atm-50m",
+     "atm-no-further"
+    ]
+   }
+  ],
+  "unknown_label": "NOT STATED IN PUBLIC SOURCES",
+  "unknown": "Whether any shares have been sold under the August supplement, and how many. The public record does not say, and this briefing does not estimate it."
+ },
  "items": [
   {
    "key": "obl-advance-notice-2026",
+   "state": "standing",
    "headline": "Stockholders have thirteen days left to put a director or a proposal on the 2026 annual meeting",
    "answers": [
-    "WHAT DEADLINES ARE APPROACHING",
-    "WHAT REQUIRES MY DECISION"
+    "WHAT DEADLINES ARE APPROACHING"
    ],
    "chain": {
     "what_happened": {
@@ -17,95 +63,37 @@
      ]
     },
     "what_changed": {
-     "text": "The window opened seventeen days ago. Thirteen days are left. A separate deadline, June 30, 2026, for proposals to be printed in the proxy itself, has already passed.",
+     "text": "The window opened seventeen days ago. Thirteen days are left. A separate deadline, June 30, 2026, for proposals to be printed in the proxy itself, has already gone by.",
      "sources": [
       "advance-notice-window",
       "rule-14a8-deadline"
      ]
     },
     "why_it_matters": {
-     "text": "The same paragraph says the window reopens for ten days after a public announcement if the 2026 meeting falls more than 30 days before, or more than 60 days after, December 12, 2026. So the meeting date decides whether this window shuts on September 13 or opens again later. The date has not been announced.",
+     "text": "The same paragraph reopens the window for ten days after a public announcement if the 2026 meeting falls more than 30 days before, or more than 60 days after, December 12, 2026. The public record does not state the date of that meeting.",
      "sources": [
       "advance-notice-reopen",
       "annual-meeting-2025"
      ]
     },
     "who_owns_it": {
-     "text": "The bylaws name the Secretary of the Company as the recipient. Scott Bartley has been Interim Chief Financial Officer, Treasurer and Secretary since October 27, 2025.",
+     "text": "The bylaws name the Secretary of the Company as the recipient. Scott Bartley has held that office, with Interim Chief Financial Officer and Treasurer, since October 27, 2025.",
      "sources": [
       "advance-notice-window",
       "interim-cfo"
      ]
     },
-    "what_is_late": {
-     "text": "Nothing is late. One deadline has already gone by on its own terms and one is running.",
-     "sources": [
-      "rule-14a8-deadline"
-     ]
-    },
     "decision_required": {
-     "text": "Set the date of the 2026 annual meeting. That single choice controls this window, the proxy calendar, and the rights plan decision in item five.",
-     "sources": []
-    },
-    "next_step": {
-     "text": "Put the meeting date on the next board agenda and have the Secretary confirm what, if anything, has been received since August 14.",
-     "sources": []
-    }
-   }
-  },
-  {
-   "key": "8k-2026-08-19",
-   "headline": "The equity program was replaced twelve days ago, and the one it replaced was terminated the same evening",
-   "answers": [
-    "WHAT CHANGED IN THE COMPANY",
-    "WHAT IMPORTANT PROGRESS WAS MADE"
-   ],
-   "chain": {
-    "what_happened": {
-     "text": "On August 19, 2026 the company filed a prospectus supplement covering up to $50 million of common stock, which replaces and supersedes the supplement of June 3. A second supplement filed the same day terminated the June offering outright.",
-     "sources": [
-      "atm-50m",
-      "atm-terminated"
-     ]
-    },
-    "what_changed": {
-     "text": "Under the June supplement, 258,856 shares had been sold for gross proceeds of approximately $7.9 million as of August 19, 2026.",
-     "sources": [
-      "atm-sold"
-     ]
-    },
-    "why_it_matters": {
-     "text": "Two documents were filed forty nine seconds apart to make one change: the capacity the company can draw on is now governed by the August supplement and by the shelf declared effective on July 7, and no longer by the June one. Any internal document that still refers to the June program is out of date.",
-     "sources": [
-      "atm-50m",
-      "atm-terminated"
-     ]
-    },
-    "who_owns_it": {
-     "text": "The Form 8-K is signed by the Chief Executive Officer, who also signs as Principal Financial Officer. H.C. Wainwright & Co., LLC is the sales agent named in the offering agreement.",
-     "sources": [
-      "atm-agent"
-     ]
-    },
-    "what_is_late": {
-     "text": "Nothing. Both filings went in on the day of the event.",
-     "sources": [
-      "atm-terminated"
-     ]
-    },
-    "decision_required": {
-     "text": "None today. Confirm that the internal description of the program, wherever it is used, points at the August supplement.",
-     "sources": []
-    },
-    "next_step": {
-     "text": "Add one line to the annual report drafting checklist: the June program ended on August 19 and is superseded.",
-     "sources": []
+     "text": "No outstanding decision established from these sources.",
+     "sources": [],
+     "register": "unknown"
     }
    }
   },
   {
    "key": "pr-2026-07-22",
-   "headline": "The July 22 announcement and the filing it was attached to state two different board sizes",
+   "state": "appeared",
+   "headline": "Two public statements of the board's size, in the same filing, do not match",
    "answers": [
     "WHAT SHOULD I KNOW THAT NOBODY HAS DIRECTLY TOLD ME"
    ],
@@ -118,44 +106,28 @@
      ]
     },
     "what_changed": {
-     "text": "Six directors stood for election at the December 12, 2025 annual meeting: Thomas B. Pickens III, Tom Wilkinson, Bob McFarland, Eric Stober, John Halinski and Charles Winn. Six plus one is seven.",
+     "text": "Six directors stood for election at the December 12, 2025 annual meeting: Thomas B. Pickens III, Tom Wilkinson, Bob McFarland, Eric Stober, John Halinski and Charles Winn.",
      "sources": [
       "directors-nominated-2025",
       "annual-meeting-2025"
      ]
     },
     "why_it_matters": {
-     "text": "Reading the proxy against the filing, the Item 5.02 figure is the one that agrees with the record. The press release is the document that travels: it is what a reader, a data vendor or a proxy adviser picks up first.",
+     "text": "Read against the proxy, the Item 5.02 figure is the one that agrees with the rest of the record. The 2026 proxy statement will state one number.",
      "sources": [
-      "board-six-to-seven",
-      "directors-nominated-2025"
-     ]
-    },
-    "who_owns_it": {
-     "text": "The Corporate Secretary, who is also the Interim Chief Financial Officer. The Board that took the action now includes a director whose career is investor relations.",
-     "sources": [
-      "interim-cfo",
       "board-six-to-seven"
      ]
     },
-    "what_is_late": {
-     "text": "Nothing is late. The Form 8-K went in four business days after the July 16 board action, and the new director had not yet been assigned to a committee at that date.",
-     "sources": [
-      "kreps-committees"
-     ]
-    },
-    "decision_required": {
-     "text": "Whether the July 22 release is corrected, and who signs off on a press release against the filing it accompanies.",
-     "sources": []
-    },
-    "next_step": {
-     "text": "One comparison pass, filing against exhibit, before the 2026 proxy statement is drafted with seven directors in it.",
-     "sources": []
+    "who_owns_it": {
+     "text": "Not stated in public sources.",
+     "sources": [],
+     "register": "unknown"
     }
    }
   },
   {
    "key": "obl-10k-fy2026",
+   "state": "standing",
    "headline": "The annual report for the year ended June 30 is due in twenty eight days",
    "answers": [
     "WHAT DEADLINES ARE APPROACHING"
@@ -168,64 +140,51 @@
      ]
     },
     "what_changed": {
-     "text": "Twenty eight days remain. The auditor for this fiscal year, RBSM LLP, was ratified by stockholders on December 12, 2025.",
+     "text": "Twenty eight days remain.",
      "sources": [
-      "auditor-fy2026"
-     ]
-    },
-    "why_it_matters": {
-     "text": "This will be the first annual report drafted after the board approved a sale process for a subsidiary in June and after the equity program was replaced in August. Both belong in it, and the drafting runway is short.",
-     "sources": [
-      "sale-process",
-      "atm-50m"
+      "filer-status"
      ]
     },
     "who_owns_it": {
-     "text": "The Interim Chief Financial Officer, with RBSM LLP as auditor.",
+     "text": "Not designated in public sources. Recent filings are signed by Thomas B. Pickens III as Principal Executive Officer and Principal Financial Officer, and RBSM LLP was ratified by stockholders as auditor for this fiscal year.",
      "sources": [
-      "interim-cfo",
+      "signature-pickens",
       "auditor-fy2026"
-     ]
+     ],
+     "register": "unknown"
     },
     "what_is_late": {
-     "text": "Nothing yet. Last year the annual report was filed on September 26, 2025, eighty eight days after the year end, one day after the results release.",
+     "text": "Nothing. The deadline is ahead. Last year the annual report was filed on the eighty eighth day, one day after the results release.",
      "sources": [
       "10k-fy2025-filed",
       "results-8k-fy2025"
      ]
-    },
-    "decision_required": {
-     "text": "The date of the results release and who reviews the subsidiary and equity program language before signature.",
-     "sources": []
-    },
-    "next_step": {
-     "text": "Lock the filing calendar this week and circulate it to the auditor.",
-     "sources": []
     }
    }
   },
   {
    "key": "obl-rights-2026",
-   "headline": "The rights plan runs out on December 20, and each extension has been signed within three days of the annual meeting",
+   "state": "standing",
+   "headline": "The rights plan reaches its Final Expiration Date on December 20",
    "answers": [
-    "WHAT REQUIRES MY DECISION"
+    "WHAT DEADLINES ARE APPROACHING"
    ],
    "chain": {
     "what_happened": {
-     "text": "Amendment No. 3 to the Rights Agreement, entered into on December 12, 2025, extends the Final Expiration Date to 5:00 P.M. New York City time on December 20, 2026.",
+     "text": "Amendment No. 3 to the Rights Agreement, entered into on December 12, 2025, extends the Final Expiration Date to 5:00 P.M. New York City time on December 20, 2026. One hundred and eleven days out.",
      "sources": [
       "rights-expiration",
       "rights-amendment-3"
      ]
     },
     "what_changed": {
-     "text": "Nothing since December. This is the first briefing, so the date is stated once here and will not be repeated until it moves or comes close.",
+     "text": "Nothing since December. This is the first run, so the date is stated once and will not be repeated until it moves or comes closer.",
      "sources": [
       "rights-expiration"
      ]
     },
     "why_it_matters": {
-     "text": "The agreement has been extended three times, on December 18, 2023, December 12, 2024 and December 12, 2025. The annual meetings of those years fell on December 15, December 13 and December 12, so each amendment landed within three days of its meeting. In practice the decision has travelled with the meeting, which is the date that is still unset in item one.",
+     "text": "The agreement has been amended on December 18, 2023, December 12, 2024 and December 12, 2025. The annual meetings of those years fell on December 15, December 13 and December 12, so each amendment landed within three days of its meeting. That is a pattern in the record, not a commitment.",
      "sources": [
       "rights-history",
       "annual-meeting-2023",
@@ -234,41 +193,48 @@
      ]
     },
     "who_owns_it": {
-     "text": "The Board of Directors, with Equiniti Trust Company as rights agent.",
+     "text": "The agreement is between the Company and Equiniti Trust Company as rights agent.",
      "sources": [
       "rights-amendment-3"
      ]
     },
-    "what_is_late": {
-     "text": "Nothing. One hundred and eleven days remain.",
-     "sources": [
-      "rights-expiration"
-     ]
-    },
     "decision_required": {
-     "text": "Extend a fourth time, redeem, or let it reach the Final Expiration Date.",
-     "sources": []
-    },
-    "next_step": {
-     "text": "Put it on the same board agenda as the annual meeting date, since the two have moved together every year since 2023.",
-     "sources": []
+     "text": "No outstanding decision established from these sources. The date is in the record; what happens at it is not.",
+     "sources": [],
+     "register": "unknown"
     }
    }
   }
  ],
- "alerts": [
+ "alert_rule": {
+  "rule": "Three or more amended insider reports accepted inside one hour.",
+  "caveat": "An illustrative rule, written for this sample. Nothing here has been approved by anyone at Astrotech.",
+  "crosses": {
+   "when": "",
+   "text": "Nothing in this window crosses it. Replayed over the same sources, the rule stays silent, and a silent day is reported as a silent day.",
+   "sources": []
+  },
+  "does_not_cross": {
+   "when": "",
+   "text": "The press release furnished as Exhibit 99.1 to the June 16 Form 8-K carries the same event as the filing it is attached to. One event, one alert. Republishing a document, or the same news arriving by a second route, fires nothing.",
+   "sources": [
+    "sale-purpose"
+   ]
+  },
+  "production": "A rule worth switching on weighs three things this one ignores: how urgent it is, whether the Chairman's own intervention is needed, and whether the matter has already reached him. A decision he took himself before it was published is not an alert."
+ },
+ "carried": [
   {
    "evidence": "8k-2026-06-16",
-   "local": "Tuesday June 16, 08:32 Eastern",
-   "rule": "a current report carrying a board decision about a subsidiary",
-   "text": "the board approved management to engage in a sale process for 1st Detect, announced the same morning."
+   "text": "The board approved a sale process for 1st Detect on June 16. The record does not say it has been signed, priced or dated."
   },
   {
-   "evidence": "8k-2026-08-19",
-   "local": "Wednesday August 19, 17:26 Eastern",
-   "rule": "a change to an active equity program, accepted after the close",
-   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated the old one, forty nine seconds apart."
+   "evidence": "pr-clps2-2026-06-30",
+   "text": "A Phase 1 proposal to the NASA Commercial Lunar Payload Services 2 program was submitted on June 30. No decision date is stated."
+  },
+  {
+   "evidence": "10qa-q3-fy2026",
+   "text": "The quarterly report for the period ended March 31 was amended on August 6. The amendment states one correction, the Series D conversion share count, and this briefing republishes none of the quarter's figures as news."
   }
- ],
- "carried": []
+ ]
 }

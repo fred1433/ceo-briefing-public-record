@@ -12,6 +12,7 @@ import pytest
 from briefing.cli import paths, run
 from briefing.model import Snapshot
 from briefing.render import SourcingError, build
+from tests.factories import MINIMAL
 
 DATES = [("2026-08-31", None), ("2026-09-15", "2026-08-31")]
 
@@ -42,8 +43,7 @@ def test_committed_briefing_matches_a_fresh_build(date, previous):
 def test_a_fact_without_a_source_is_refused():
     snap = Snapshot.load(paths("2026-09-15")["snapshot"])
     editorial = {
-        "headline": "h",
-        "scope": "s",
+        **MINIMAL,
         "items": [
             {
                 "key": "obl-10k-fy2026",
@@ -59,8 +59,7 @@ def test_a_fact_without_a_source_is_refused():
 def test_an_unknown_source_id_is_refused():
     snap = Snapshot.load(paths("2026-09-15")["snapshot"])
     editorial = {
-        "headline": "h",
-        "scope": "s",
+        **MINIMAL,
         "items": [
             {
                 "key": "obl-10k-fy2026",

@@ -5,6 +5,11 @@ Three registers are kept apart on purpose, because the reader asked for it:
   fact            what a public document says, with the quote and the link
   interpretation  what we read into it, marked as ours
   action          what to do about it, operational and never financial
+  unknown         what the sources do not establish, said plainly rather than guessed
+
+The fourth register is the one that keeps the other three honest. An owner, a
+deadline breach or an open decision is printed only when a source designates it;
+otherwise the briefing says so and stops.
 
 The wording of each item lives in `data/editorial/<date>.json`. In production that
 layer is the model, running inside the customer's own tenant on their own sources.
@@ -31,6 +36,13 @@ STEPS = [
     ("decision_required", "WHAT DECISION IS REQUIRED", "action"),
     ("next_step", "WHAT TO DO NEXT", "action"),
 ]
+
+TAG = {
+    "fact": "FACT",
+    "interpretation": "INTERPRETATION",
+    "action": "RECOMMENDED ACTION",
+    "unknown": "NOT ESTABLISHED",
+}
 
 BANNED = ("upwork", "job posting", "@theaipipe", "hiring", "resume", "candidate")
 
@@ -59,10 +71,14 @@ def build(current: Snapshot, previous: Snapshot | None, editorial: dict[str, Any
         "cik": current.cik,
         "previous": previous.as_of if previous else None,
         "reconstructed": current.reconstructed,
+        "banner": editorial["banner"],
+        "replay": editorial["replay"],
+        "engine": editorial["engine"],
         "headline": editorial["headline"],
         "scope": editorial["scope"],
+        "tracked": _tracked(current, editorial["tracked"]),
         "items": items,
-        "alerts": [_alert(current, a) for a in editorial.get("alerts", [])],
+        "alert_rule": _alert_rule(current, editorial["alert_rule"]),
         "carried": [_carried(current, c) for c in editorial.get("carried", [])],
         "counts": {
             "evidence": len(current.evidence),
@@ -123,6 +139,12 @@ def _item(snap: Snapshot, raw: dict[str, Any], change: Change | None) -> dict[st
             raise SourcingError(f"{raw['key']}.{field}: a fact with no source")
         if register == "fact" and not any(s["quote"] for s in sources):
             raise SourcingError(f"{raw['key']}.{field}: a fact with no quotation")
+        if register == "unknown" and not block["text"].lower().startswith(
+            ("not stated", "not designated", "no outstanding", "not established")
+        ):
+            raise SourcingError(
+                f"{raw['key']}.{field}: an unknown must say so in the agreed words"
+            )
         chain.append(
             {"field": field, "label": label, "register": register,
              "text": block["text"], "sources": sources}
@@ -142,17 +164,31 @@ def _item(snap: Snapshot, raw: dict[str, Any], change: Change | None) -> dict[st
     }
 
 
-def _alert(snap: Snapshot, a: dict[str, Any]) -> dict[str, Any]:
-    ev = snap.evidence[a["evidence"]]
+def _tracked(snap: Snapshot, t: dict[str, Any]) -> dict[str, Any]:
+    """One subject followed across filings: the state before, the change, the unknown."""
+    lines = []
+    for line in t["lines"]:
+        register = line.get("register", "fact")
+        sources = _sources(snap, line.get("sources", []))
+        if register == "fact" and not any(s["quote"] for s in sources):
+            raise SourcingError(f"tracked.{line['label']}: a fact with no quotation")
+        lines.append({"label": line["label"], "register": register,
+                      "text": line["text"], "sources": sources})
+    return {"subject": t["subject"], "lines": lines,
+            "unknown_label": t["unknown_label"], "unknown": t["unknown"]}
+
+
+def _alert_rule(snap: Snapshot, a: dict[str, Any]) -> dict[str, Any]:
+    def case(c: dict[str, Any]) -> dict[str, Any]:
+        return {"when": c.get("when", ""), "text": c["text"],
+                "sources": _sources(snap, c.get("sources", []))}
+
     return {
-        "evidence": a["evidence"],
-        "title": ev.title,
-        "url": ev.url,
-        "published": ev.published,
-        "accepted": ev.accepted,
-        "local": a["local"],
         "rule": a["rule"],
-        "text": a["text"],
+        "caveat": a["caveat"],
+        "crosses": case(a["crosses"]),
+        "does_not_cross": case(a["does_not_cross"]),
+        "production": a["production"],
     }
 
 
@@ -179,7 +215,18 @@ def _guard(out: dict[str, Any]) -> None:
 def to_markdown(b: dict[str, Any]) -> str:
     lines = [f"# CEO Corporate Intelligence Briefing", "",
              f"**{b['company']} ({b['ticker']}) - {b['as_of']}**", "",
-             b["headline"], "", f"_{b['scope']}_", ""]
+             f"_{b['banner']}_", "", f"_{b['replay']}_", "",
+             b["engine"], "", b["headline"], "", f"_{b['scope']}_", ""]
+    t = b["tracked"]
+    lines += [f"## Tracked subject: {t['subject']}", ""]
+    for line in t["lines"]:
+        tag = TAG[line["register"]]
+        lines += [f"**{line['label']}** [{tag}]  ", line["text"]]
+        for s in line["sources"]:
+            q = f' "{s["quote"]}"' if s["quote"] else ""
+            lines.append(f"  - {s['title']}, {s['published']}: {s['url']}{q}")
+        lines.append("")
+    lines += [f"**{t['unknown_label']}**  ", t["unknown"], ""]
     if b["previous"]:
         lines += [f"Previous briefing: {b['previous']}.", ""]
     for n, item in enumerate(b["items"], 1):
@@ -188,18 +235,23 @@ def to_markdown(b: dict[str, Any]) -> str:
             lines.append(f"*Carried over from {b['previous']}. New since then: {item['new_since_previous']}*")
         lines.append("")
         for step in item["chain"]:
-            tag = {"fact": "FACT", "interpretation": "INTERPRETATION", "action": "RECOMMENDED ACTION"}[step["register"]]
+            tag = TAG[step["register"]]
             lines.append(f"**{step['label']}** [{tag}]  ")
             lines.append(step["text"])
             for s in step["sources"]:
                 q = f' "{s["quote"]}"' if s["quote"] else ""
                 lines.append(f"  - {s['title']}, {s['published']}: {s['url']}{q}")
             lines.append("")
-    if b["alerts"]:
-        lines += ["## Would have alerted you", ""]
-        for a in b["alerts"]:
-            lines.append(f"- **{a['local']}** {a['text']} (rule: {a['rule']}) {a['url']}")
-        lines.append("")
+    rule = b["alert_rule"]
+    lines += ["## Alert rule, replayed", "", f"_{rule['caveat']}_", "",
+              f"**The rule.** {rule['rule']}", "",
+              f"**It fires.** {rule['crosses']['when']} {rule['crosses']['text']}", ""]
+    for s in rule["crosses"]["sources"]:
+        lines.append(f"  - {s['title']}, {s['published']}: {s['url']}")
+    lines += ["", f"**It does not fire.** {rule['does_not_cross']['text']}", ""]
+    for s in rule["does_not_cross"]["sources"]:
+        lines.append(f"  - {s['title']}, {s['published']}: {s['url']}")
+    lines += ["", f"**In production.** {rule['production']}", ""]
     if b["carried"]:
         lines += ["## Unchanged since the previous briefing, not repeated", ""]
         for c in b["carried"]:

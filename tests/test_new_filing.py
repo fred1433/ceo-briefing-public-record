@@ -3,7 +3,7 @@
 from briefing.diff import diff
 from briefing.rank import rank
 from briefing.render import build
-from tests.factories import basic, evidence, snapshot
+from tests.factories import MINIMAL, basic, evidence, snapshot
 from briefing.model import Observation
 
 
@@ -35,8 +35,7 @@ def test_new_filing_outranks_a_distant_deadline():
 def test_rendered_item_carries_the_link_and_the_quote():
     before, after = _with_new_filing()
     editorial = {
-        "headline": "h",
-        "scope": "s",
+        **MINIMAL,
         "items": [
             {
                 "key": "ev-2",

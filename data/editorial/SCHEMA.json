@@ -1,0 +1,89 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Editorial layer for one briefing",
+ "description": "What the model returns in production, and what the two committed files in this directory contain as a pre-computed output.",
+ "type": "object",
+ "required": ["banner", "replay", "engine", "headline", "scope", "tracked", "items", "alert_rule", "carried"],
+ "properties": {
+  "banner": {"type": "string", "description": "Who published this and who did not."},
+  "replay": {"type": "string", "description": "Whether the briefing was produced on its own date or reconstructed later."},
+  "engine": {"type": "string", "description": "What is being shown and what remains to be built."},
+  "headline": {"type": "string"},
+  "scope": {"type": "string", "description": "Which sources were read, and which were deliberately not."},
+  "tracked": {
+   "type": "object",
+   "description": "One subject followed across filings: the state before, the change, and one thing left unknown.",
+   "required": ["subject", "lines", "unknown_label", "unknown"],
+   "properties": {
+    "subject": {"type": "string"},
+    "lines": {"type": "array", "items": {"$ref": "#/$defs/block"}},
+    "unknown_label": {"const": "NOT STATED IN PUBLIC SOURCES"},
+    "unknown": {"type": "string"}
+   }
+  },
+  "items": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["key", "headline", "chain"],
+    "properties": {
+     "key": {"type": "string", "description": "The ranked change or obligation this item answers."},
+     "headline": {"type": "string"},
+     "answers": {"type": "array", "items": {"type": "string"}},
+     "carried_over": {"type": "boolean"},
+     "new_since_previous": {"type": ["string", "null"], "description": "Required when carried_over is true: what is new about a repeated item."},
+     "chain": {
+      "type": "object",
+      "description": "Only the steps the records allow. Absent is better than mechanical.",
+      "properties": {
+       "what_happened": {"$ref": "#/$defs/block"},
+       "what_changed": {"$ref": "#/$defs/block"},
+       "why_it_matters": {"$ref": "#/$defs/block"},
+       "who_owns_it": {"$ref": "#/$defs/block"},
+       "what_is_late": {"$ref": "#/$defs/block"},
+       "decision_required": {"$ref": "#/$defs/block"},
+       "next_step": {"$ref": "#/$defs/block"}
+      },
+      "additionalProperties": false
+     }
+    }
+   }
+  },
+  "alert_rule": {
+   "type": "object",
+   "required": ["rule", "caveat", "crosses", "does_not_cross", "production"],
+   "properties": {
+    "rule": {"type": "string"},
+    "caveat": {"type": "string", "description": "Whose rule it is, and whether anyone has approved it."},
+    "crosses": {"$ref": "#/$defs/case"},
+    "does_not_cross": {"$ref": "#/$defs/case"},
+    "production": {"type": "string"}
+   }
+  },
+  "carried": {
+   "type": "array",
+   "description": "Open items whose state is kept and whose story has not moved. Listed, not repeated.",
+   "items": {"type": "object", "required": ["evidence", "text"]}
+  }
+ },
+ "$defs": {
+  "block": {
+   "type": "object",
+   "required": ["text"],
+   "properties": {
+    "text": {"type": "string"},
+    "register": {"enum": ["fact", "interpretation", "action", "unknown"], "default": "fact"},
+    "sources": {"type": "array", "items": {"type": "string", "description": "An observation or evidence id in the snapshot."}}
+   }
+  },
+  "case": {
+   "type": "object",
+   "required": ["text"],
+   "properties": {
+    "when": {"type": "string"},
+    "text": {"type": "string"},
+    "sources": {"type": "array", "items": {"type": "string"}}
+   }
+  }
+ }
+}
