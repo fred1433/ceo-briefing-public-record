@@ -25,3 +25,19 @@ def test_a_second_identical_run_after_a_first_reports_nothing():
     first = basic("2026-09-15")
     again = basic("2026-09-15")
     assert diff(first, again) == []
+
+
+def test_a_repeated_item_must_say_what_is_new_about_it():
+    """Repeating an item is allowed only when the briefing names the delta.
+
+    Straight from the reader's brief: identify significant changes rather than
+    repeatedly telling me the same information every day. An item carried over
+    with nothing new to say is the failure mode, so it fails the build.
+    """
+    from briefing.cli import run
+
+    out = run("2026-09-15", "2026-08-31", write=False)
+    carried = [i for i in out["items"] if i["carried_over"]]
+    assert carried, "the September briefing carries two items over on purpose"
+    for item in carried:
+        assert item["new_since_previous"], f"{item['key']} repeats itself with no delta"
