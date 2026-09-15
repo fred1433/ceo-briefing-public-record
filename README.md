@@ -81,7 +81,7 @@ next to the passage it is reading.
 ## Checking the work
 
 `tools/verify_sources.py` re-downloads every cited document and asserts that every quoted
-passage is still in it, word for word. Last run on the September 15 snapshot: **62 passages
+passage is still in it, word for word. Last run on the September 15 snapshot: **64 passages
 checked in 23 documents, 0 not found**.
 
 ```bash

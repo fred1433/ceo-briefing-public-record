@@ -441,7 +441,7 @@
   {
    "id": "team-roster",
    "evidence": "page-team",
-   "quote": "Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
+   "quote": "Thomas B. Pickens, III Chief Executive Officer and Chairman of the Board [...] Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
    "fact": "The page presents the Chairman and five other board members, six names in all, and no seventh."
   },
   {
@@ -453,7 +453,7 @@
   {
    "id": "reconcile:board-six-to-seven:page-team",
    "evidence": "page-team",
-   "quote": "Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
+   "quote": "Thomas B. Pickens, III Chief Executive Officer and Chairman of the Board [...] Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
    "fact": "The company's own board page still shows the six directors who stood for election in December 2025, and not the seventh appointed in July 2026."
   }
  ],
