@@ -1,6 +1,6 @@
 {
  "headline": "First run. Every open item on the public register is stated once here, so that the next briefing can report only what moved.",
- "scope": "Built from the public record alone: filings accepted by EDGAR, press releases, and the company's own pages, as they stood on August 31, 2026. No internal source of any kind.",
+ "scope": "Built from the public record alone: filings accepted by EDGAR, press releases, and the company's own pages, as they stood on August 31, 2026. No internal source of any kind. This earlier briefing was assembled on September 15 from documents that were already public on August 31, so that the later one can be read against something.",
  "items": [
   {
    "key": "obl-advance-notice-2026",
@@ -38,7 +38,7 @@
      ]
     },
     "what_is_late": {
-     "text": "Nothing is late. One deadline has passed on its own terms and one is running.",
+     "text": "Nothing is late. One deadline has already gone by on its own terms and one is running.",
      "sources": [
       "rule-14a8-deadline"
      ]
@@ -75,7 +75,7 @@
      ]
     },
     "why_it_matters": {
-     "text": "Two documents were filed twenty six minutes apart to make one change: the capacity the company can draw on is now governed by the August supplement and by the shelf declared effective on July 7, and no longer by the June one. Any internal document that still refers to the June program is out of date.",
+     "text": "Two documents were filed forty nine seconds apart to make one change: the capacity the company can draw on is now governed by the August supplement and by the shelf declared effective on July 7, and no longer by the June one. Any internal document that still refers to the June program is out of date.",
      "sources": [
       "atm-50m",
       "atm-terminated"
@@ -188,9 +188,10 @@
      ]
     },
     "what_is_late": {
-     "text": "Nothing yet. Last year the annual report was filed on September 26, 2025, eighty eight days after the year end.",
+     "text": "Nothing yet. Last year the annual report was filed on September 26, 2025, eighty eight days after the year end, one day after the results release.",
      "sources": [
-      "filer-status"
+      "10k-fy2025-filed",
+      "results-8k-fy2025"
      ]
     },
     "decision_required": {
@@ -263,8 +264,8 @@
   {
    "evidence": "8k-2026-08-19",
    "local": "Wednesday August 19, 17:26 Eastern",
-   "rule": "a change to an active equity programme, accepted after the close",
-   "text": "a $50 million prospectus supplement replaced the June programme, and a second filing terminated it, twenty six minutes apart."
+   "rule": "a change to an active equity program, accepted after the close",
+   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated the old one, forty nine seconds apart."
   }
  ],
  "carried": []

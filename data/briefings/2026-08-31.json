@@ -4,8 +4,9 @@
  "ticker": "ASTC",
  "cik": "0001001907",
  "previous": null,
+ "reconstructed": true,
  "headline": "First run. Every open item on the public register is stated once here, so that the next briefing can report only what moved.",
- "scope": "Built from the public record alone: filings accepted by EDGAR, press releases, and the company's own pages, as they stood on August 31, 2026. No internal source of any kind.",
+ "scope": "Built from the public record alone: filings accepted by EDGAR, press releases, and the company's own pages, as they stood on August 31, 2026. No internal source of any kind. This earlier briefing was assembled on September 15 from documents that were already public on August 31, so that the later one can be read against something.",
  "items": [
   {
    "key": "obl-advance-notice-2026",
@@ -113,7 +114,7 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "Nothing is late. One deadline has passed on its own terms and one is running.",
+     "text": "Nothing is late. One deadline has already gone by on its own terms and one is running.",
      "sources": [
       {
        "id": "rule-14a8-deadline",
@@ -200,7 +201,7 @@
      "field": "why_it_matters",
      "label": "WHY IT MATTERS",
      "register": "interpretation",
-     "text": "Two documents were filed twenty six minutes apart to make one change: the capacity the company can draw on is now governed by the August supplement and by the shelf declared effective on July 7, and no longer by the June one. Any internal document that still refers to the June program is out of date.",
+     "text": "Two documents were filed forty nine seconds apart to make one change: the capacity the company can draw on is now governed by the August supplement and by the shelf declared effective on July 7, and no longer by the June one. Any internal document that still refers to the June program is out of date.",
      "sources": [
       {
        "id": "atm-50m",
@@ -267,7 +268,7 @@
      "sources": []
     }
    ],
-   "rank": 10
+   "rank": 13
   },
   {
    "key": "pr-2026-07-22",
@@ -409,7 +410,7 @@
      "sources": []
     }
    ],
-   "rank": 30
+   "rank": 33
   },
   {
    "key": "obl-10k-fy2026",
@@ -508,14 +509,22 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "Nothing yet. Last year the annual report was filed on September 26, 2025, eighty eight days after the year end.",
+     "text": "Nothing yet. Last year the annual report was filed on September 26, 2025, eighty eight days after the year end, one day after the results release.",
      "sources": [
       {
-       "id": "filer-status",
-       "title": "Form 10-Q for the quarter ended March 31, 2026",
-       "published": "2026-05-13",
-       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926016543/astc20260331_10q.htm",
-       "quote": "Non-accelerated filer ☒",
+       "id": "10k-fy2025-filed",
+       "title": "Annual report on Form 10-K for the fiscal year ended June 30, 2025, filed September 26, 2025",
+       "published": "2025-09-26",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029909/astc20250630_10k.htm",
+       "quote": "ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended June 30, 2025",
+       "kind": "sec_filing"
+      },
+      {
+       "id": "results-8k-fy2025",
+       "title": "Form 8-K, Item 2.02: results for the quarter and year ended June 30, 2025",
+       "published": "2025-09-25",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029876/astc20250911_8k.htm",
+       "quote": "On September 25, 2025, Astrotech Corporation (the \"Company\") issued a press release announcing its results of operations for the quarter and year ended June 30, 2025.",
        "kind": "sec_filing"
       }
      ]
@@ -535,7 +544,7 @@
      "sources": []
     }
    ],
-   "rank": 40
+   "rank": 44
   },
   {
    "key": "obl-rights-2026",
@@ -661,7 +670,7 @@
      "sources": []
     }
    ],
-   "rank": 41
+   "rank": 45
   }
  ],
  "alerts": [
@@ -682,18 +691,18 @@
    "published": "2026-08-19",
    "accepted": "2026-08-19T21:26:25Z",
    "local": "Wednesday August 19, 17:26 Eastern",
-   "rule": "a change to an active equity programme, accepted after the close",
-   "text": "a $50 million prospectus supplement replaced the June programme, and a second filing terminated it, twenty six minutes apart."
+   "rule": "a change to an active equity program, accepted after the close",
+   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated the old one, forty nine seconds apart."
   }
  ],
  "carried": [],
  "counts": {
-  "evidence": 13,
-  "observations": 26,
+  "evidence": 15,
+  "observations": 28,
   "obligations": 3,
-  "changes": 42,
+  "changes": 46,
   "items": 5,
-  "passages": 37
+  "passages": 39
  },
  "generated": "2026-08-31"
 }

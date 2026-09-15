@@ -114,6 +114,24 @@
    "retrieved": "2026-09-15"
   },
   {
+   "id": "8k-2025-09-25",
+   "kind": "sec_filing",
+   "title": "Form 8-K, Item 2.02: results for the quarter and year ended June 30, 2025",
+   "published": "2025-09-25",
+   "accepted": "2025-09-25T20:10:00Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029876/astc20250911_8k.htm",
+   "retrieved": "2026-09-15"
+  },
+  {
+   "id": "10k-fy2025",
+   "kind": "sec_filing",
+   "title": "Annual report on Form 10-K for the fiscal year ended June 30, 2025, filed September 26, 2025",
+   "published": "2025-09-26",
+   "accepted": "2025-09-26T20:31:00Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029909/astc20250630_10k.htm",
+   "retrieved": "2026-09-15"
+  },
+  {
    "id": "page-newsroom",
    "kind": "company_page",
    "title": "Company newsroom, 2026 listing, on astrotechcorp.com",
@@ -269,6 +287,18 @@
    "evidence": "424b5-2026-08-19",
    "quote": "The purpose of this prospectus supplement is to terminate the continuous offering by us under the June Prospectus effective August 19, 2026.",
    "fact": "A second supplement filed the same day formally terminated the June offering."
+  },
+  {
+   "id": "results-8k-fy2025",
+   "evidence": "8k-2025-09-25",
+   "quote": "On September 25, 2025, Astrotech Corporation (the \"Company\") issued a press release announcing its results of operations for the quarter and year ended June 30, 2025.",
+   "fact": "Last year the annual results release was issued on September 25, 2025."
+  },
+  {
+   "id": "10k-fy2025-filed",
+   "evidence": "10k-fy2025",
+   "quote": "ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended June 30, 2025",
+   "fact": "The annual report for the year ended June 30, 2025 was filed on September 26, 2025, the eighty eighth day after the year end and one day after the results release."
   },
   {
    "id": "newsroom-latest",

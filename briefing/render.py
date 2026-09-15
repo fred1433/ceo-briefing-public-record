@@ -58,6 +58,7 @@ def build(current: Snapshot, previous: Snapshot | None, editorial: dict[str, Any
         "ticker": current.ticker,
         "cik": current.cik,
         "previous": previous.as_of if previous else None,
+        "reconstructed": current.reconstructed,
         "headline": editorial["headline"],
         "scope": editorial["scope"],
         "items": items,

@@ -4,6 +4,7 @@
  "ticker": "ASTC",
  "cik": "0001001907",
  "previous": "2026-08-31",
+ "reconstructed": false,
  "headline": "Five things moved since the August 31 briefing. Everything else on the register is unchanged and is listed at the foot without being repeated.",
  "scope": "Built from the public record alone: filings accepted by EDGAR, press releases, and the company's own pages, read on September 15, 2026. No internal source of any kind.",
  "items": [
@@ -113,7 +114,7 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "Nothing. A window shut on its own terms, and the June 30 deadline for proposals printed in the proxy passed on schedule.",
+     "text": "Nothing. A window shut on its own terms, and the June 30 deadline for proposals printed in the proxy has already gone by.",
      "sources": [
       {
        "id": "rule-14a8-deadline",
@@ -175,7 +176,7 @@
      "field": "what_changed",
      "label": "WHAT CHANGED",
      "register": "fact",
-     "text": "Twenty eight days remained at the last briefing. Thirteen remain. Nothing filed in the interval touches the report.",
+     "text": "Twenty eight days remained at the last briefing. Thirteen remain.",
      "sources": [
       {
        "id": "filer-status",
@@ -216,6 +217,14 @@
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926028569/astc20260818_8k.htm",
        "quote": "the offer and sale of up to $50 million of shares [...] which replaces and supersedes the Prior Prospectus Supplement",
        "kind": "sec_filing"
+      },
+      {
+       "id": "results-8k-fy2025",
+       "title": "Form 8-K, Item 2.02: results for the quarter and year ended June 30, 2025",
+       "published": "2025-09-25",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029876/astc20250911_8k.htm",
+       "quote": "On September 25, 2025, Astrotech Corporation (the \"Company\") issued a press release announcing its results of operations for the quarter and year ended June 30, 2025.",
+       "kind": "sec_filing"
       }
      ]
     },
@@ -249,6 +258,14 @@
      "register": "fact",
      "text": "Nothing is late. Last year's report was filed on the eighty eighth day.",
      "sources": [
+      {
+       "id": "10k-fy2025-filed",
+       "title": "Annual report on Form 10-K for the fiscal year ended June 30, 2025, filed September 26, 2025",
+       "published": "2025-09-26",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029909/astc20250630_10k.htm",
+       "quote": "ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended June 30, 2025",
+       "kind": "sec_filing"
+      },
       {
        "id": "filer-status",
        "title": "Form 10-Q for the quarter ended March 31, 2026",
@@ -385,11 +402,11 @@
        "kind": "sec_filing"
       },
       {
-       "id": "form4a-count",
-       "title": "EDGAR index of the company's Section 16 ownership reports",
+       "id": "form4a-badugu-title",
+       "title": "Form 4/A for the Chief Operating Officer, filed September 8, 2026",
        "published": "2026-09-08",
-       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001907&type=4&dateb=&owner=include&count=40",
-       "quote": "Acc-no: 0001437749-26-029876 Size: 5 KB 2026-09-08",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926029872/xslF345X06/rdgdoc.xml",
+       "quote": "Officer (give title below) Other (specify below) Chief Operating Officer",
        "kind": "sec_filing"
       }
      ]
@@ -425,7 +442,7 @@
      "sources": []
     }
    ],
-   "rank": 9
+   "rank": 11
   },
   {
    "key": "reconcile:board-six-to-seven:page-team",
@@ -591,7 +608,7 @@
      "sources": []
     }
    ],
-   "rank": 15
+   "rank": 17
   },
   {
    "key": "obl-rights-2026",
@@ -698,7 +715,7 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "Nothing. Ninety six days remain, and each of the last three extensions was signed within nine days of the expiration.",
+     "text": "Nothing. Ninety six days remain, and each of the three amendments so far was signed in the middle of December.",
      "sources": [
       {
        "id": "rights-history",
@@ -733,7 +750,7 @@
      "sources": []
     }
    ],
-   "rank": 16
+   "rank": 18
   }
  ],
  "alerts": [
@@ -755,7 +772,7 @@
    "accepted": "2026-08-19T21:26:25Z",
    "local": "Wednesday August 19, 17:26 Eastern",
    "rule": "a change to an active equity program, accepted after the close",
-   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated it, twenty six minutes apart."
+   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated the old one, forty nine seconds apart."
   },
   {
    "evidence": "edgar-section16-list",
@@ -806,12 +823,12 @@
   }
  ],
  "counts": {
-  "evidence": 18,
-  "observations": 34,
+  "evidence": 21,
+  "observations": 37,
   "obligations": 3,
-  "changes": 15,
+  "changes": 17,
   "items": 5,
-  "passages": 56
+  "passages": 59
  },
  "generated": "2026-09-15"
 }

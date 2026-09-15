@@ -39,7 +39,7 @@
      ]
     },
     "what_is_late": {
-     "text": "Nothing. A window shut on its own terms, and the June 30 deadline for proposals printed in the proxy passed on schedule.",
+     "text": "Nothing. A window shut on its own terms, and the June 30 deadline for proposals printed in the proxy has already gone by.",
      "sources": [
       "rule-14a8-deadline"
      ]
@@ -69,7 +69,7 @@
      ]
     },
     "what_changed": {
-     "text": "Twenty eight days remained at the last briefing. Thirteen remain. Nothing filed in the interval touches the report.",
+     "text": "Twenty eight days remained at the last briefing. Thirteen remain.",
      "sources": [
       "filer-status",
       "auditor-fy2026"
@@ -79,7 +79,8 @@
      "text": "It is the first annual report drafted after the June board approval of a sale process for 1st Detect and the August replacement of the equity program. Last year the results release came out the day before the report, so that date is already inside the window.",
      "sources": [
       "sale-process",
-      "atm-50m"
+      "atm-50m",
+      "results-8k-fy2025"
      ]
     },
     "who_owns_it": {
@@ -92,6 +93,7 @@
     "what_is_late": {
      "text": "Nothing is late. Last year's report was filed on the eighty eighth day.",
      "sources": [
+      "10k-fy2025-filed",
       "filer-status"
      ]
     },
@@ -140,7 +142,7 @@
      "text": "The Corporate Secretary, with securities counsel. The five are four directors and the Chief Operating Officer.",
      "sources": [
       "interim-cfo",
-      "form4a-count"
+      "form4a-badugu-title"
      ]
     },
     "what_is_late": {
@@ -254,7 +256,7 @@
      ]
     },
     "what_is_late": {
-     "text": "Nothing. Ninety six days remain, and each of the last three extensions was signed within nine days of the expiration.",
+     "text": "Nothing. Ninety six days remain, and each of the three amendments so far was signed in the middle of December.",
      "sources": [
       "rights-history",
       "rights-expiration"
@@ -282,7 +284,7 @@
    "evidence": "8k-2026-08-19",
    "local": "Wednesday August 19, 17:26 Eastern",
    "rule": "a change to an active equity program, accepted after the close",
-   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated it, twenty six minutes apart."
+   "text": "a $50 million prospectus supplement replaced the June program, and a second filing terminated the old one, forty nine seconds apart."
   },
   {
    "evidence": "edgar-section16-list",
