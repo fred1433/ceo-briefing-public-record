@@ -141,6 +141,24 @@
    "retrieved": "2026-09-15"
   },
   {
+   "id": "8k-2023-12-20",
+   "kind": "sec_filing",
+   "title": "Form 8-K, Item 5.07: results of the December 15, 2023 annual meeting",
+   "published": "2023-12-20",
+   "accepted": "2023-12-20T21:20:00Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774923034936/astc20231219_8k.htm",
+   "retrieved": "2026-09-15"
+  },
+  {
+   "id": "8k-2024-12-16",
+   "kind": "sec_filing",
+   "title": "Form 8-K, Item 5.07: results of the December 13, 2024 annual meeting",
+   "published": "2024-12-16",
+   "accepted": "2024-12-16T21:20:00Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774924037609/astc20241213_8k.htm",
+   "retrieved": "2026-09-15"
+  },
+  {
    "id": "8k-2025-09-25",
    "kind": "sec_filing",
    "title": "Form 8-K, Item 2.02: results for the quarter and year ended June 30, 2025",
@@ -249,6 +267,24 @@
    "evidence": "8k-2025-12-17",
    "quote": "as amended by that certain Amendment No. 1 [...] on December 18, 2023, and further amended by that certain Amendment No. 2 [...] on December 12, 2024",
    "fact": "The agreement has been extended three times: December 18, 2023, December 12, 2024, and December 12, 2025."
+  },
+  {
+   "id": "annual-meeting-2023",
+   "evidence": "8k-2023-12-20",
+   "quote": "On December 15, 2023, Astrotech Corporation (the \"Company\") held its annual meeting of shareholders",
+   "fact": "The 2023 annual meeting was held on December 15, 2023, three days before Amendment No. 1."
+  },
+  {
+   "id": "annual-meeting-2024",
+   "evidence": "8k-2024-12-16",
+   "quote": "On December 13, 2024, Astrotech Corporation (the \"Company\") held its annual meeting of stockholders",
+   "fact": "The 2024 annual meeting was held on December 13, 2024, the day after Amendment No. 2."
+  },
+  {
+   "id": "atm-agent",
+   "evidence": "8k-2026-08-19",
+   "quote": "entered into an at-the-market offering agreement (the \"Offering Agreement\") with H.C. Wainwright & Co., LLC, as agent",
+   "fact": "H.C. Wainwright & Co., LLC is the sales agent named in the offering agreement."
   },
   {
    "id": "rights-amendment-3",

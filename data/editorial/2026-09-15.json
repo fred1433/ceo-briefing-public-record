@@ -222,8 +222,8 @@
    "key": "obl-rights-2026",
    "state": "standing",
    "carried_over": true,
-   "new_since_previous": "item one put the annual meeting date in play, and every extension of this agreement so far has been signed on the day of that meeting",
-   "headline": "The rights plan reaches its expiration on December 20, and the decision has travelled with the annual meeting every year since 2023",
+   "new_since_previous": "item one put the annual meeting date in play, and each extension of this agreement has been signed within three days of that meeting",
+   "headline": "The rights plan reaches its expiration on December 20, and each extension has been signed within three days of the annual meeting",
    "answers": [
     "WHAT REQUIRES MY DECISION"
    ],
@@ -243,9 +243,11 @@
      ]
     },
     "why_it_matters": {
-     "text": "The three amendments were signed December 18, 2023, December 12, 2024 and December 12, 2025, the last on the day of the annual meeting. Three points are a habit, not a rule, but they put this decision and the meeting date on one agenda.",
+     "text": "The three amendments were signed December 18, 2023, December 12, 2024 and December 12, 2025. The annual meetings of those years fell on December 15, December 13 and December 12, so each amendment landed within three days of its meeting. Three points are a habit, not a rule, but they put this decision and the meeting date on one agenda.",
      "sources": [
       "rights-history",
+      "annual-meeting-2023",
+      "annual-meeting-2024",
       "annual-meeting-2025"
      ]
     },

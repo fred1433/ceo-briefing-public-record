@@ -82,9 +82,9 @@
      ]
     },
     "who_owns_it": {
-     "text": "Both filings are signed by the Chief Executive Officer, who also signs as Principal Financial Officer. H.C. Wainwright & Co., LLC is the sales agent named in the offering agreement.",
+     "text": "The Form 8-K is signed by the Chief Executive Officer, who also signs as Principal Financial Officer. H.C. Wainwright & Co., LLC is the sales agent named in the offering agreement.",
      "sources": [
-      "atm-50m"
+      "atm-agent"
      ]
     },
     "what_is_late": {
@@ -206,7 +206,7 @@
   },
   {
    "key": "obl-rights-2026",
-   "headline": "The rights plan runs out on December 20, and each extension so far was signed on the day of the annual meeting",
+   "headline": "The rights plan runs out on December 20, and each extension has been signed within three days of the annual meeting",
    "answers": [
     "WHAT REQUIRES MY DECISION"
    ],
@@ -225,9 +225,11 @@
      ]
     },
     "why_it_matters": {
-     "text": "The agreement has been extended three times, on December 18, 2023, December 12, 2024 and December 12, 2025. The last of those was the day of the annual meeting. In practice the decision has travelled with the meeting, which is the same date that is still unset in item one.",
+     "text": "The agreement has been extended three times, on December 18, 2023, December 12, 2024 and December 12, 2025. The annual meetings of those years fell on December 15, December 13 and December 12, so each amendment landed within three days of its meeting. In practice the decision has travelled with the meeting, which is the date that is still unset in item one.",
      "sources": [
       "rights-history",
+      "annual-meeting-2023",
+      "annual-meeting-2024",
       "annual-meeting-2025"
      ]
     },

@@ -225,14 +225,14 @@
      "field": "who_owns_it",
      "label": "WHO OWNS IT",
      "register": "fact",
-     "text": "Both filings are signed by the Chief Executive Officer, who also signs as Principal Financial Officer. H.C. Wainwright & Co., LLC is the sales agent named in the offering agreement.",
+     "text": "The Form 8-K is signed by the Chief Executive Officer, who also signs as Principal Financial Officer. H.C. Wainwright & Co., LLC is the sales agent named in the offering agreement.",
      "sources": [
       {
-       "id": "atm-50m",
+       "id": "atm-agent",
        "title": "Form 8-K, Item 8.01: a $50 million prospectus supplement replaces the June program",
        "published": "2026-08-19",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926028569/astc20260818_8k.htm",
-       "quote": "the offer and sale of up to $50 million of shares [...] which replaces and supersedes the Prior Prospectus Supplement",
+       "quote": "entered into an at-the-market offering agreement (the \"Offering Agreement\") with H.C. Wainwright & Co., LLC, as agent",
        "kind": "sec_filing"
       }
      ]
@@ -268,7 +268,7 @@
      "sources": []
     }
    ],
-   "rank": 13
+   "rank": 15
   },
   {
    "key": "pr-2026-07-22",
@@ -410,7 +410,7 @@
      "sources": []
     }
    ],
-   "rank": 33
+   "rank": 38
   },
   {
    "key": "obl-10k-fy2026",
@@ -544,11 +544,11 @@
      "sources": []
     }
    ],
-   "rank": 44
+   "rank": 49
   },
   {
    "key": "obl-rights-2026",
-   "headline": "The rights plan runs out on December 20, and each extension so far was signed on the day of the annual meeting",
+   "headline": "The rights plan runs out on December 20, and each extension has been signed within three days of the annual meeting",
    "answers": [
     "WHAT REQUIRES MY DECISION"
    ],
@@ -603,7 +603,7 @@
      "field": "why_it_matters",
      "label": "WHY IT MATTERS",
      "register": "interpretation",
-     "text": "The agreement has been extended three times, on December 18, 2023, December 12, 2024 and December 12, 2025. The last of those was the day of the annual meeting. In practice the decision has travelled with the meeting, which is the same date that is still unset in item one.",
+     "text": "The agreement has been extended three times, on December 18, 2023, December 12, 2024 and December 12, 2025. The annual meetings of those years fell on December 15, December 13 and December 12, so each amendment landed within three days of its meeting. In practice the decision has travelled with the meeting, which is the date that is still unset in item one.",
      "sources": [
       {
        "id": "rights-history",
@@ -611,6 +611,22 @@
        "published": "2025-12-17",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925038149/astc20251216_8k.htm",
        "quote": "as amended by that certain Amendment No. 1 [...] on December 18, 2023, and further amended by that certain Amendment No. 2 [...] on December 12, 2024",
+       "kind": "sec_filing"
+      },
+      {
+       "id": "annual-meeting-2023",
+       "title": "Form 8-K, Item 5.07: results of the December 15, 2023 annual meeting",
+       "published": "2023-12-20",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774923034936/astc20231219_8k.htm",
+       "quote": "On December 15, 2023, Astrotech Corporation (the \"Company\") held its annual meeting of shareholders",
+       "kind": "sec_filing"
+      },
+      {
+       "id": "annual-meeting-2024",
+       "title": "Form 8-K, Item 5.07: results of the December 13, 2024 annual meeting",
+       "published": "2024-12-16",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774924037609/astc20241213_8k.htm",
+       "quote": "On December 13, 2024, Astrotech Corporation (the \"Company\") held its annual meeting of stockholders",
        "kind": "sec_filing"
       },
       {
@@ -670,7 +686,7 @@
      "sources": []
     }
    ],
-   "rank": 45
+   "rank": 50
   }
  ],
  "alerts": [
@@ -697,12 +713,12 @@
  ],
  "carried": [],
  "counts": {
-  "evidence": 15,
-  "observations": 28,
+  "evidence": 17,
+  "observations": 31,
   "obligations": 3,
-  "changes": 46,
+  "changes": 51,
   "items": 5,
-  "passages": 39
+  "passages": 42
  },
  "generated": "2026-08-31"
 }
