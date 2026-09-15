@@ -25,14 +25,14 @@
      "field": "what_happened",
      "label": "WHAT HAPPENED",
      "register": "fact",
-     "text": "The bylaw window for stockholder proposals and director nominations at the 2026 annual meeting closed at the close of business on Sunday, September 13, 2026. It had opened on August 14.",
+     "text": "The bylaw window for stockholder proposals and director nominations at the 2026 annual meeting shut at the close of business on Sunday, September 13. It had opened on August 14.",
      "sources": [
       {
        "id": "advance-notice-window",
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company at the Company's principal executive offices so that it is received by not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
+       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company [...] not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
        "kind": "sec_filing"
       }
      ]
@@ -41,14 +41,14 @@
      "field": "what_changed",
      "label": "WHAT CHANGED",
      "register": "fact",
-     "text": "On August 31 this was an open window with thirteen days to run. It is now shut. Nothing has been filed since to announce the date of the meeting.",
+     "text": "At the last briefing it was open with thirteen days to run. It is shut, and nothing has been filed since to announce the date of the meeting.",
      "sources": [
       {
        "id": "advance-notice-window",
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company at the Company's principal executive offices so that it is received by not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
+       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company [...] not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
        "kind": "sec_filing"
       },
       {
@@ -56,7 +56,7 @@
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "unless the date of our 2026 annual meeting is more than 30 days before or more than 60 days after December 12, 2026, in which case the proposal must be received no later than the 10th day following the day on which public announcement of the date of such meeting is first made by the Company",
+       "quote": "unless the date of our 2026 annual meeting is more than 30 days before or more than 60 days after December 12, 2026, in which case the proposal must be received no later than the 10th day following the day on which public announcement of the date of such meeting is first made",
        "kind": "sec_filing"
       }
      ]
@@ -65,14 +65,14 @@
      "field": "why_it_matters",
      "label": "WHY IT MATTERS",
      "register": "interpretation",
-     "text": "The same paragraph reopens the window for ten days after a public announcement if the 2026 meeting falls more than 30 days before, or more than 60 days after, December 12, 2026. Setting the meeting date therefore decides whether the window stays shut or opens again. Reading it the other way round: as long as the date is unset, the answer to whether nominations are closed is unsettled. Whether a submission received on Monday, September 14 would be treated as timely against a Sunday deadline is a question for counsel, not for this briefing.",
+     "text": "The same paragraph reopens it for ten days after a public announcement if the meeting falls more than 30 days before, or more than 60 days after, December 12. The meeting date, still unset, is what decides whether nominations are shut. Whether a submission on Monday the 14th would count against a Sunday deadline is a question for counsel.",
      "sources": [
       {
        "id": "advance-notice-reopen",
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "unless the date of our 2026 annual meeting is more than 30 days before or more than 60 days after December 12, 2026, in which case the proposal must be received no later than the 10th day following the day on which public announcement of the date of such meeting is first made by the Company",
+       "quote": "unless the date of our 2026 annual meeting is more than 30 days before or more than 60 days after December 12, 2026, in which case the proposal must be received no later than the 10th day following the day on which public announcement of the date of such meeting is first made",
        "kind": "sec_filing"
       },
       {
@@ -89,14 +89,14 @@
      "field": "who_owns_it",
      "label": "WHO OWNS IT",
      "register": "fact",
-     "text": "The bylaws name the Secretary of the Company as the recipient. Scott Bartley has held that office, with the Interim Chief Financial Officer and Treasurer roles, since October 27, 2025.",
+     "text": "The bylaws name the Secretary of the Company. Scott Bartley has held that office, with Interim Chief Financial Officer and Treasurer, since October 27, 2025.",
      "sources": [
       {
        "id": "advance-notice-window",
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company at the Company's principal executive offices so that it is received by not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
+       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company [...] not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
        "kind": "sec_filing"
       },
       {
@@ -104,7 +104,7 @@
        "title": "Form 8-K, Item 5.02: appointment of an Interim Chief Financial Officer",
        "published": "2025-10-31",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925032589/astc20251031_8k.htm",
-       "quote": "On October 27, 2025, the Board of Directors of Astrotech Corporation (the \"Company\") appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
+       "quote": "On October 27, 2025, the Board of Directors [...] appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
        "kind": "sec_filing"
       }
      ]
@@ -113,7 +113,7 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "Nothing is late. A window shut on its own terms. The deadline for proposals to be printed in the proxy itself passed on June 30.",
+     "text": "Nothing. A window shut on its own terms, and the June 30 deadline for proposals printed in the proxy passed on schedule.",
      "sources": [
       {
        "id": "rule-14a8-deadline",
@@ -129,14 +129,14 @@
      "field": "decision_required",
      "label": "WHAT DECISION IS REQUIRED",
      "register": "action",
-     "text": "Set the date of the 2026 annual meeting. That one choice settles this window, the proxy calendar, and the rights plan in item five.",
+     "text": "Set the date of the 2026 annual meeting. That one choice settles this window, the proxy calendar and item five.",
      "sources": []
     },
     {
      "field": "next_step",
      "label": "WHAT TO DO NEXT",
      "register": "action",
-     "text": "Next board agenda. Ask the Secretary to confirm on the record what was received between August 14 and September 13.",
+     "text": "Next board agenda. Ask the Secretary to confirm on the record what came in between August 14 and September 13.",
      "sources": []
     }
    ],
@@ -159,7 +159,7 @@
      "field": "what_happened",
      "label": "WHAT HAPPENED",
      "register": "fact",
-     "text": "The fiscal year ended on June 30, 2026. The company reports as a non-accelerated filer and a smaller reporting company, which puts the annual report ninety days after the year end: Monday, September 28, 2026.",
+     "text": "The fiscal year ended June 30. As a non-accelerated filer and a smaller reporting company, the annual report is due ninety days later: Monday, September 28.",
      "sources": [
       {
        "id": "filer-status",
@@ -175,7 +175,7 @@
      "field": "what_changed",
      "label": "WHAT CHANGED",
      "register": "fact",
-     "text": "Twenty eight days remained at the last briefing. Thirteen remain now. Nothing has been filed in the interval that touches the annual report.",
+     "text": "Twenty eight days remained at the last briefing. Thirteen remain. Nothing filed in the interval touches the report.",
      "sources": [
       {
        "id": "filer-status",
@@ -199,7 +199,7 @@
      "field": "why_it_matters",
      "label": "WHY IT MATTERS",
      "register": "interpretation",
-     "text": "This is the first annual report drafted after the board approved a sale process for 1st Detect in June and after the equity program was replaced in August. Both belong in it. Last year the results release came out one day before the report itself, on September 25 and 26, so the release date is effectively already inside the window.",
+     "text": "It is the first annual report drafted after the June board approval of a sale process for 1st Detect and the August replacement of the equity program. Last year the results release came out the day before the report, so that date is already inside the window.",
      "sources": [
       {
        "id": "sale-process",
@@ -214,7 +214,7 @@
        "title": "Form 8-K, Item 8.01: a $50 million prospectus supplement replaces the June program",
        "published": "2026-08-19",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926028569/astc20260818_8k.htm",
-       "quote": "the offer and sale of up to $50 million of shares (the \"Shares\") of Common Stock pursuant to the Offering Agreement, which replaces and supersedes the Prior Prospectus Supplement",
+       "quote": "the offer and sale of up to $50 million of shares [...] which replaces and supersedes the Prior Prospectus Supplement",
        "kind": "sec_filing"
       }
      ]
@@ -223,14 +223,14 @@
      "field": "who_owns_it",
      "label": "WHO OWNS IT",
      "register": "fact",
-     "text": "The Interim Chief Financial Officer, with RBSM LLP, ratified by stockholders as auditor for this fiscal year.",
+     "text": "The Interim Chief Financial Officer, with RBSM LLP, ratified by stockholders as auditor for this year.",
      "sources": [
       {
        "id": "interim-cfo",
        "title": "Form 8-K, Item 5.02: appointment of an Interim Chief Financial Officer",
        "published": "2025-10-31",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925032589/astc20251031_8k.htm",
-       "quote": "On October 27, 2025, the Board of Directors of Astrotech Corporation (the \"Company\") appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
+       "quote": "On October 27, 2025, the Board of Directors [...] appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
        "kind": "sec_filing"
       },
       {
@@ -263,14 +263,14 @@
      "field": "decision_required",
      "label": "WHAT DECISION IS REQUIRED",
      "register": "action",
-     "text": "Fix the results release date, and name who reviews the subsidiary sale process and equity program language before signature.",
+     "text": "Fix the results release date, and name who reviews the sale process and equity program language before signature.",
      "sources": []
     },
     {
      "field": "next_step",
      "label": "WHAT TO DO NEXT",
      "register": "action",
-     "text": "Lock the calendar this week. Item three below should be settled before the report is signed, not after.",
+     "text": "Lock the calendar this week. Item three should be settled before the report is signed, not after.",
      "sources": []
     }
    ],
@@ -294,7 +294,7 @@
      "field": "what_happened",
      "label": "WHAT HAPPENED",
      "register": "fact",
-     "text": "EDGAR indexes seven Forms 4/A under the filing date September 8, 2026, accepted between 21:02 and 21:15 Eastern. They amend reports for five insiders. One of them corrects a report originally filed on March 18, 2024.",
+     "text": "EDGAR indexes seven Forms 4/A under September 8, accepted between 21:02 and 21:15 Eastern, amending reports for five insiders. One corrects a report originally filed on March 18, 2024.",
      "sources": [
       {
        "id": "form4a-count",
@@ -318,7 +318,7 @@
      "field": "what_changed",
      "label": "WHAT CHANGED",
      "register": "fact",
-     "text": "None of this existed at the August 31 briefing. One of the amended reports is itself only a week old: the Form 4 filed on September 1, 2026 carries a date of earliest transaction of December 13, 2024 while the transaction it reports is an award of 2,150 shares dated September 1, 2026. The amendment filed seven days later restates that date as September 1, 2026.",
+     "text": "None of it existed on August 31. One amended report was a week old: the Form 4 filed September 1 carries a date of earliest transaction of December 13, 2024, while the award it reports is dated September 1, 2026. The amendment restates that date.",
      "sources": [
       {
        "id": "form4-winn-period",
@@ -350,14 +350,14 @@
      "field": "why_it_matters",
      "label": "WHY IT MATTERS",
      "register": "interpretation",
-     "text": "A batch that reaches across five insiders and back to a report from March 2024 reads as the output of a review of past filings rather than a single clerical fix. This briefing can see the output on EDGAR and not the review itself, so that reading is offered as a reading. What is not a reading is the calendar: the proxy statement has to name every insider whose Section 16(a) report was late during the fiscal year, and last year's named three people by name and date.",
+     "text": "A batch across five insiders reaching back to March 2024 reads as the output of a review of past filings rather than one clerical fix. This briefing sees the output on EDGAR, not the review, so that is offered as a reading. The calendar is not a reading: the proxy must name every insider whose report was late during the year, and last year's named three.",
      "sources": [
       {
        "id": "section16-fy2025",
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "filings required to be made pursuant to Section 16(a) of the Exchange Act during the fiscal year ended June 30, 2025 were filed in a timely manner by our officers and directors, other than: Jamie Hinojosa who filed a late report on October 15, 2024, Thomas Boone Pickens III who filed a late report on October 15, 2024 and Jennifer Canas who filed a late report on June 4, 2025",
+       "quote": "the Company is required to disclose in this document any failure in the past fiscal year to file by the required dates [...] other than: Jamie Hinojosa who filed a late report on October 15, 2024, Thomas Boone Pickens III who filed a late report on October 15, 2024 and Jennifer Canas who filed a late report on June 4, 2025",
        "kind": "sec_filing"
       },
       {
@@ -374,14 +374,14 @@
      "field": "who_owns_it",
      "label": "WHO OWNS IT",
      "register": "fact",
-     "text": "The Corporate Secretary, with the company's securities counsel. The five insiders are four directors and the Chief Operating Officer.",
+     "text": "The Corporate Secretary, with securities counsel. The five are four directors and the Chief Operating Officer.",
      "sources": [
       {
        "id": "interim-cfo",
        "title": "Form 8-K, Item 5.02: appointment of an Interim Chief Financial Officer",
        "published": "2025-10-31",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925032589/astc20251031_8k.htm",
-       "quote": "On October 27, 2025, the Board of Directors of Astrotech Corporation (the \"Company\") appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
+       "quote": "On October 27, 2025, the Board of Directors [...] appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
        "kind": "sec_filing"
       },
       {
@@ -398,14 +398,14 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "The amendments themselves are not a finding of lateness. But the annual report is due on September 28 and the proxy follows it, and the Section 16(a) paragraph in that proxy is drafted from exactly this material.",
+     "text": "The amendments are not themselves a finding of lateness. But the annual report is due September 28, the proxy follows it, and that paragraph is drafted from this material.",
      "sources": [
       {
        "id": "section16-fy2025",
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "filings required to be made pursuant to Section 16(a) of the Exchange Act during the fiscal year ended June 30, 2025 were filed in a timely manner by our officers and directors, other than: Jamie Hinojosa who filed a late report on October 15, 2024, Thomas Boone Pickens III who filed a late report on October 15, 2024 and Jennifer Canas who filed a late report on June 4, 2025",
+       "quote": "the Company is required to disclose in this document any failure in the past fiscal year to file by the required dates [...] other than: Jamie Hinojosa who filed a late report on October 15, 2024, Thomas Boone Pickens III who filed a late report on October 15, 2024 and Jennifer Canas who filed a late report on June 4, 2025",
        "kind": "sec_filing"
       }
      ]
@@ -414,14 +414,14 @@
      "field": "decision_required",
      "label": "WHAT DECISION IS REQUIRED",
      "register": "action",
-     "text": "Ask counsel, before the annual report is signed, for the list of fiscal 2026 Section 16 reports filed after their due date and for what triggered the September 8 batch.",
+     "text": "Ask counsel, before the annual report is signed, for the list of fiscal 2026 reports filed after their due date and for what triggered the batch.",
      "sources": []
     },
     {
      "field": "next_step",
      "label": "WHAT TO DO NEXT",
      "register": "action",
-     "text": "One request to counsel this week. It costs an email and it decides a paragraph that is read closely by proxy advisers.",
+     "text": "One request to counsel this week. It costs an email and settles a paragraph proxy advisers read closely.",
      "sources": []
     }
    ],
@@ -444,14 +444,14 @@
      "field": "what_happened",
      "label": "WHAT HAPPENED",
      "register": "fact",
-     "text": "Item 5.02 of the Form 8-K of July 22, 2026 says the Board went from six directors to seven and appointed Matthew Kreps. The press release furnished as Exhibit 99.1 to that same filing says it went from five to six. The Executive Team page on the company site presents the Chairman and five directors, six names, and no seventh.",
+     "text": "Item 5.02 of the Form 8-K of July 22 says the Board went from six directors to seven. The press release furnished as Exhibit 99.1 to that same filing says five to six. The Executive Team page shows the Chairman and five directors, six names.",
      "sources": [
       {
        "id": "board-six-to-seven",
        "title": "Form 8-K, Item 5.02: appointment of a seventh director",
        "published": "2026-07-22",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926024046/astc20260721_8k.htm",
-       "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board to serve as a director until the Company's 2026 annual meeting of stockholders",
+       "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board",
        "kind": "sec_filing"
       },
       {
@@ -467,7 +467,7 @@
        "title": "Executive Team and Board Members page on astrotechcorp.com",
        "published": "2026-09-15",
        "url": "https://www.astrotechcorp.com/about/executive-team",
-       "quote": "Thomas B. Pickens, III Chief Executive Officer and Chairman of the Board [...] Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
+       "quote": "Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
        "kind": "company_page"
       }
      ]
@@ -476,14 +476,14 @@
      "field": "what_changed",
      "label": "WHAT CHANGED",
      "register": "fact",
-     "text": "The contradiction inside the July 22 filing was in the August 31 briefing. What is new is the reconciliation: the board page was read on September 15, sixty one days after the July 16 board action, and has not caught up. The same page lists a Chief Operating Officer and a Chief Product Officer and no Chief Financial Officer, while an Interim Chief Financial Officer, Treasurer and Secretary has been in office since October 27, 2025.",
+     "text": "The contradiction inside the July 22 filing was in the last briefing. New is the reconciliation: the board page, read on September 15, is sixty one days behind the July 16 board action. The same page lists no Chief Financial Officer, while an Interim Chief Financial Officer has been in office since October 27, 2025.",
      "sources": [
       {
        "id": "team-roster",
        "title": "Executive Team and Board Members page on astrotechcorp.com",
        "published": "2026-09-15",
        "url": "https://www.astrotechcorp.com/about/executive-team",
-       "quote": "Thomas B. Pickens, III Chief Executive Officer and Chairman of the Board [...] Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
+       "quote": "Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
        "kind": "company_page"
       },
       {
@@ -499,7 +499,7 @@
        "title": "Form 8-K, Item 5.02: appointment of an Interim Chief Financial Officer",
        "published": "2025-10-31",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925032589/astc20251031_8k.htm",
-       "quote": "On October 27, 2025, the Board of Directors of Astrotech Corporation (the \"Company\") appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
+       "quote": "On October 27, 2025, the Board of Directors [...] appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
        "kind": "sec_filing"
       }
      ]
@@ -508,7 +508,7 @@
      "field": "why_it_matters",
      "label": "WHY IT MATTERS",
      "register": "interpretation",
-     "text": "Six directors stood for election on December 12, 2025, so six plus one is seven and the Item 5.02 figure is the one that agrees with the record. The press release is the document that travels: data vendors and proxy advisers read it first, and the website is what a counterparty checks second. The 2026 proxy statement will have to state one number, in writing, with seven names under it.",
+     "text": "Six directors stood for election on December 12, 2025, so the Item 5.02 figure is the one that agrees with the record. The press release is the document that travels: data vendors and proxy advisers read it first, and a counterparty checks the website second. The 2026 proxy will have to state one number, with seven names under it.",
      "sources": [
       {
        "id": "directors-nominated-2025",
@@ -523,7 +523,7 @@
        "title": "Form 8-K, Item 5.02: appointment of a seventh director",
        "published": "2026-07-22",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926024046/astc20260721_8k.htm",
-       "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board to serve as a director until the Company's 2026 annual meeting of stockholders",
+       "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board",
        "kind": "sec_filing"
       }
      ]
@@ -532,14 +532,14 @@
      "field": "who_owns_it",
      "label": "WHO OWNS IT",
      "register": "fact",
-     "text": "The Corporate Secretary. The Board that took the action in July now includes a director whose career is investor relations, and he is the one name missing from the page.",
+     "text": "The Corporate Secretary. The board that acted in July now includes a director whose career is investor relations, and his is the name missing from the page.",
      "sources": [
       {
        "id": "interim-cfo",
        "title": "Form 8-K, Item 5.02: appointment of an Interim Chief Financial Officer",
        "published": "2025-10-31",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925032589/astc20251031_8k.htm",
-       "quote": "On October 27, 2025, the Board of Directors of Astrotech Corporation (the \"Company\") appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
+       "quote": "On October 27, 2025, the Board of Directors [...] appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
        "kind": "sec_filing"
       },
       {
@@ -547,7 +547,7 @@
        "title": "Form 8-K, Item 5.02: appointment of a seventh director",
        "published": "2026-07-22",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774926024046/astc20260721_8k.htm",
-       "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board to serve as a director until the Company's 2026 annual meeting of stockholders",
+       "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board",
        "kind": "sec_filing"
       }
      ]
@@ -556,14 +556,14 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "No filing is late. The Form 8-K went in four business days after the board acted. It is the company's own pages that are behind, by sixty one days on the board and by three hundred and twenty three on the finance seat.",
+     "text": "No filing is late. The Form 8-K went in four business days after the board acted. The company's own pages are behind, by sixty one days on the board and three hundred and twenty three on the finance seat.",
      "sources": [
       {
        "id": "team-roster",
        "title": "Executive Team and Board Members page on astrotechcorp.com",
        "published": "2026-09-15",
        "url": "https://www.astrotechcorp.com/about/executive-team",
-       "quote": "Thomas B. Pickens, III Chief Executive Officer and Chairman of the Board [...] Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
+       "quote": "Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
        "kind": "company_page"
       },
       {
@@ -571,7 +571,7 @@
        "title": "Form 8-K, Item 5.02: appointment of an Interim Chief Financial Officer",
        "published": "2025-10-31",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925032589/astc20251031_8k.htm",
-       "quote": "On October 27, 2025, the Board of Directors of Astrotech Corporation (the \"Company\") appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
+       "quote": "On October 27, 2025, the Board of Directors [...] appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
        "kind": "sec_filing"
       }
      ]
@@ -580,14 +580,14 @@
      "field": "decision_required",
      "label": "WHAT DECISION IS REQUIRED",
      "register": "action",
-     "text": "Whether the July 22 release is corrected, and who owns the board page and the newsroom now that there is a director whose profession is exactly this.",
+     "text": "Whether the July 22 release is corrected, and who owns the board page and the newsroom.",
      "sources": []
     },
     {
      "field": "next_step",
      "label": "WHAT TO DO NEXT",
      "register": "action",
-     "text": "One pass over the two pages before the proxy is drafted. Then one rule: no release goes out without being read against the filing it is attached to.",
+     "text": "One pass over the two pages before the proxy is drafted. Then one rule: no release goes out unread against the filing it is attached to.",
      "sources": []
     }
    ],
@@ -610,7 +610,7 @@
      "field": "what_happened",
      "label": "WHAT HAPPENED",
      "register": "fact",
-     "text": "Amendment No. 3 to the Rights Agreement, entered into on December 12, 2025, extends the Final Expiration Date to 5:00 P.M. New York City time on December 20, 2026. Ninety six days from today.",
+     "text": "Amendment No. 3, entered into December 12, 2025, extends the Final Expiration Date to 5:00 P.M. New York City time on December 20, 2026. Ninety six days out.",
      "sources": [
       {
        "id": "rights-expiration",
@@ -634,7 +634,7 @@
      "field": "what_changed",
      "label": "WHAT CHANGED",
      "register": "fact",
-     "text": "Nothing about the agreement. It is repeated here on purpose, because its context changed: the annual meeting date became an open decision when the nomination window shut on Sunday.",
+     "text": "Nothing about the agreement. It is repeated on purpose: its context changed when the nomination window shut and put the meeting date in play.",
      "sources": [
       {
        "id": "rights-expiration",
@@ -649,7 +649,7 @@
        "title": "Definitive proxy statement (DEF 14A) for the December 12, 2025 annual meeting",
        "published": "2025-10-28",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925031958/astc20250930_def14a.htm",
-       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company at the Company's principal executive offices so that it is received by not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
+       "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company [...] not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
        "kind": "sec_filing"
       }
      ]
@@ -658,14 +658,14 @@
      "field": "why_it_matters",
      "label": "WHY IT MATTERS",
      "register": "interpretation",
-     "text": "The agreement has been amended on December 18, 2023, December 12, 2024 and December 12, 2025, and that last date is the day the 2025 annual meeting was held. Three data points are a habit, not a rule, but they put this decision and the meeting date on the same page of the same agenda.",
+     "text": "The three amendments were signed December 18, 2023, December 12, 2024 and December 12, 2025, the last on the day of the annual meeting. Three points are a habit, not a rule, but they put this decision and the meeting date on one agenda.",
      "sources": [
       {
        "id": "rights-history",
        "title": "Form 8-K: annual meeting results and Amendment No. 3 to the Rights Agreement",
        "published": "2025-12-17",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925038149/astc20251216_8k.htm",
-       "quote": "as amended by that certain Amendment No. 1, entered into by and between the Company and the Rights Agent on December 18, 2023, and further amended by that certain Amendment No. 2, entered into by and between the Company and the Rights Agent on December 12, 2024",
+       "quote": "as amended by that certain Amendment No. 1 [...] on December 18, 2023, and further amended by that certain Amendment No. 2 [...] on December 12, 2024",
        "kind": "sec_filing"
       },
       {
@@ -698,14 +698,14 @@
      "field": "what_is_late",
      "label": "WHAT IS LATE",
      "register": "fact",
-     "text": "Nothing. Ninety six days remain, and the last three extensions were each signed within nine days of the expiration.",
+     "text": "Nothing. Ninety six days remain, and each of the last three extensions was signed within nine days of the expiration.",
      "sources": [
       {
        "id": "rights-history",
        "title": "Form 8-K: annual meeting results and Amendment No. 3 to the Rights Agreement",
        "published": "2025-12-17",
        "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925038149/astc20251216_8k.htm",
-       "quote": "as amended by that certain Amendment No. 1, entered into by and between the Company and the Rights Agent on December 18, 2023, and further amended by that certain Amendment No. 2, entered into by and between the Company and the Rights Agent on December 12, 2024",
+       "quote": "as amended by that certain Amendment No. 1 [...] on December 18, 2023, and further amended by that certain Amendment No. 2 [...] on December 12, 2024",
        "kind": "sec_filing"
       },
       {
@@ -729,7 +729,7 @@
      "field": "next_step",
      "label": "WHAT TO DO NEXT",
      "register": "action",
-     "text": "Same board agenda as item one. If the meeting moves out of December, this date does not move with it on its own.",
+     "text": "Same board agenda as item one. If the meeting moves out of December, this date does not move with it.",
      "sources": []
     }
    ],
@@ -810,7 +810,8 @@
   "observations": 34,
   "obligations": 3,
   "changes": 15,
-  "items": 5
+  "items": 5,
+  "passages": 56
  },
  "generated": "2026-09-15"
 }

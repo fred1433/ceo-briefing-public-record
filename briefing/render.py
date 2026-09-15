@@ -69,6 +69,7 @@ def build(current: Snapshot, previous: Snapshot | None, editorial: dict[str, Any
             "obligations": len(current.obligations),
             "changes": len(changes),
             "items": len(items),
+            "passages": sum(len(o.quote.split(" [...] ")) for o in current.observations.values()),
         },
         "generated": current.as_of,
     }

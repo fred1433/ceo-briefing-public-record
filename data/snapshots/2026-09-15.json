@@ -172,13 +172,13 @@
   {
    "id": "advance-notice-window",
    "evidence": "def14a-2025",
-   "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company at the Company's principal executive offices so that it is received by not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
+   "quote": "any stockholder who would like to have a proposal considered at our 2026 annual meeting of stockholders must submit the proposal to the Secretary of the Company [...] not earlier than the close of business on August 14, 2026, and not later than the close of business on September 13, 2026",
    "fact": "The bylaw window for stockholder proposals and director nominations at the 2026 annual meeting ran from August 14 to September 13, 2026."
   },
   {
    "id": "advance-notice-reopen",
    "evidence": "def14a-2025",
-   "quote": "unless the date of our 2026 annual meeting is more than 30 days before or more than 60 days after December 12, 2026, in which case the proposal must be received no later than the 10th day following the day on which public announcement of the date of such meeting is first made by the Company",
+   "quote": "unless the date of our 2026 annual meeting is more than 30 days before or more than 60 days after December 12, 2026, in which case the proposal must be received no later than the 10th day following the day on which public announcement of the date of such meeting is first made",
    "fact": "The window reopens for ten days after a public announcement if the 2026 meeting falls more than 30 days before or more than 60 days after December 12, 2026."
   },
   {
@@ -190,7 +190,7 @@
   {
    "id": "section16-fy2025",
    "evidence": "def14a-2025",
-   "quote": "filings required to be made pursuant to Section 16(a) of the Exchange Act during the fiscal year ended June 30, 2025 were filed in a timely manner by our officers and directors, other than: Jamie Hinojosa who filed a late report on October 15, 2024, Thomas Boone Pickens III who filed a late report on October 15, 2024 and Jennifer Canas who filed a late report on June 4, 2025",
+   "quote": "the Company is required to disclose in this document any failure in the past fiscal year to file by the required dates [...] other than: Jamie Hinojosa who filed a late report on October 15, 2024, Thomas Boone Pickens III who filed a late report on October 15, 2024 and Jennifer Canas who filed a late report on June 4, 2025",
    "fact": "The proxy has to name every insider who filed a Section 16(a) report late during the fiscal year. Last year it named three."
   },
   {
@@ -220,7 +220,7 @@
   {
    "id": "rights-history",
    "evidence": "8k-2025-12-17",
-   "quote": "as amended by that certain Amendment No. 1, entered into by and between the Company and the Rights Agent on December 18, 2023, and further amended by that certain Amendment No. 2, entered into by and between the Company and the Rights Agent on December 12, 2024",
+   "quote": "as amended by that certain Amendment No. 1 [...] on December 18, 2023, and further amended by that certain Amendment No. 2 [...] on December 12, 2024",
    "fact": "The agreement has been extended three times: December 18, 2023, December 12, 2024, and December 12, 2025."
   },
   {
@@ -244,7 +244,7 @@
   {
    "id": "10qa-reason",
    "evidence": "10qa-q3-fy2026",
-   "quote": "This Amendment is being filed solely to correct an inadvertent administrative error contained in Part I, Item 1",
+   "quote": "filed solely to correct an inadvertent administrative error",
    "fact": "The quarterly report for the period ended March 31, 2026 was amended on August 6 to correct the Series D conversion share count."
   },
   {
@@ -274,7 +274,7 @@
   {
    "id": "board-six-to-seven",
    "evidence": "8k-2026-07-22",
-   "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board to serve as a director until the Company's 2026 annual meeting of stockholders",
+   "quote": "increased the size of the Board from six directors to seven directors and appointed Matthew Kreps to the Board",
    "fact": "Item 5.02 of the July 22 Form 8-K says the board went from six to seven directors.",
    "occurred": "2026-07-16"
   },
@@ -293,14 +293,14 @@
   {
    "id": "interim-cfo",
    "evidence": "8k-2025-10-31",
-   "quote": "On October 27, 2025, the Board of Directors of Astrotech Corporation (the \"Company\") appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
+   "quote": "On October 27, 2025, the Board of Directors [...] appointed Scott Bartley, as Interim Chief Financial Officer, Treasurer and Secretary of the Company",
    "fact": "Scott Bartley has been Interim Chief Financial Officer, Treasurer and Secretary since October 27, 2025.",
    "occurred": "2025-10-27"
   },
   {
    "id": "atm-50m",
    "evidence": "8k-2026-08-19",
-   "quote": "the offer and sale of up to $50 million of shares (the \"Shares\") of Common Stock pursuant to the Offering Agreement, which replaces and supersedes the Prior Prospectus Supplement",
+   "quote": "the offer and sale of up to $50 million of shares [...] which replaces and supersedes the Prior Prospectus Supplement",
    "fact": "A prospectus supplement filed August 19, 2026 covers up to $50 million and supersedes the June supplement."
   },
   {
@@ -360,7 +360,7 @@
   {
    "id": "team-roster",
    "evidence": "page-team",
-   "quote": "Thomas B. Pickens, III Chief Executive Officer and Chairman of the Board [...] Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
+   "quote": "Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
    "fact": "The page presents the Chairman and five other board members, six names in all, and no seventh."
   },
   {
@@ -372,7 +372,7 @@
   {
    "id": "reconcile:board-six-to-seven:page-team",
    "evidence": "page-team",
-   "quote": "Thomas B. Pickens, III Chief Executive Officer and Chairman of the Board [...] Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
+   "quote": "Board Members [...] Tom Wilkinson Lead Independent Director [...] Bob McFarland Director [...] John Halinski Director [...] Eric Stober Director [...] Charles Winn Director",
    "fact": "The company's own board page still shows the six directors who stood for election in December 2025, and not the seventh appointed in July 2026."
   }
  ],
